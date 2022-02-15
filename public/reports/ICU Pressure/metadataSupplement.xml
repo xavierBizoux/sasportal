@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadataSupplement>
+    <tables>
+        <table dataLocale="en_US" dataSources="ds7" resourceIdentifier="'cas-shared-default','VISUAL','COVID-ICU-DATA','en_US'" tableModifiedTimeStamp="2022-02-04T19:25:52.475Z">
+            <columns>
+                <column dataType="string" label="country" xref="country"/>
+                <column dataType="string" label="indicator" xref="indicator"/>
+                <column dataType="string" label="date" xref="date"/>
+                <column dataType="string" label="year_week" xref="year_week"/>
+                <column dataType="double" format="BEST12." label="value" xref="value"/>
+                <column dataType="string" label="source" xref="source"/>
+                <column dataType="string" label="url" xref="url"/>
+            </columns>
+        </table>
+    </tables>
+    <version>2</version>
+</metadataSupplement>
