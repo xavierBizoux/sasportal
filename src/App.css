@@ -6,3 +6,25 @@ sas-report-object {
     width: 100%;
     height: 100%;
 }
+
+.sas_components-Tree-Tree_nodes-container {
+    max-height: 30vh;
+    overflow: auto;
+}
+
+sas-content-breadcrumb .sas_components-Breadcrumb-Breadcrumb_breadcrumb {
+    max-width: 25vw;
+}
+
+sas-content-area .sas_components-Breadcrumb-Breadcrumb_breadcrumb {
+    display: none;
+}
+
+sas-content-area .sas_content-ContentArea-ContentArea_content-area {
+    max-width: 25vw;
+    overflow-y: auto;
+}
+
+sas-content-area .sas_content-ContentTiles-ContentTiles_tiles-container {
+    max-height: 60vh;
+}
