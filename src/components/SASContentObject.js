@@ -37,7 +37,11 @@ const SASContentObject = (props) => {
             }
             area.current.onSelect = (selectedItems, selectAll, lastSelectedItem, selected) => {
                 if (lastSelectedItem.resource.type.sasType !== "folder") {
-                    setCenterData({ type: lastSelectedItem.resource.type.typeDefName, uri: lastSelectedItem.id, name: lastSelectedItem.name })
+                    setCenterData({
+                        type: lastSelectedItem.resource.type.typeDefName,
+                        uri: lastSelectedItem.id,
+                        name: lastSelectedItem.name
+                    })
                 }
             }
         }
