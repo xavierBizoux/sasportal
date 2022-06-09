@@ -1,11 +1,11 @@
 import Box from "@mui/material/Box"
 import CircularProgress from "@mui/material/CircularProgress"
 import React, { useContext, useEffect, useRef } from "react"
-import CenterContext from "../contexts/CenterContext"
+import LayoutContext from "../contexts/LayoutContext"
 
 
 const SASContentObject = (props) => {
-    const { setCenterData } = useContext(CenterContext)
+    const { setCenterData } = useContext(LayoutContext)
     const group = useRef()
     const breadcrumb = useRef()
     const tree = useRef()

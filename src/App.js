@@ -1,19 +1,22 @@
-import Drawer from "@mui/material/Drawer"
-import Grid from "@mui/material/Grid"
-import Box from "@mui/system/Box"
+import Box from "@mui/material/Box"
+import Typography from "@mui/material/Typography"
 import React, { useEffect, useState } from "react"
 import './App.css'
 import CenterContent from "./components/CenterContent"
-import SASContentObject from "./components/SASContentObject"
-import CenterContext from "./contexts/CenterContext"
-
-const vaInfo = { url: "https://gelenv-stable.pdcesx21047.race.sas.com" }
+import ContentDrawer from "./components/ContentDrawer"
+import RightDrawer from "./components/RightDrawer"
+import SASAppBar from "./components/SASAppBar"
+import LayoutContext from "./contexts/LayoutContext"
+import { instance } from "./util/credentials"
 
 function App() {
     const [centerData, setCenterData] = useState({ type: null, uri: null, name: null })
+    const [isAuthenticated, setIsAuthenticated] = useState(false)
     const [isContentSDKReady, setIsContentSDKReady] = useState(false)
-    const [drawersDisplayed, setDrawersDisplayed] = useState(true)
-    const [centerSize, setCenterSize] = useState(40)
+    const [leftDrawerDisplayed, setLeftDrawerDisplayed] = useState(true)
+    const [rightDrawerDisplayed, setRightDrawerDisplayed] = useState(true)
+    const [centerSize, setCenterSize] = useState({})
+    const [content, setContent] = useState()
 
     useEffect(() => {
         window.addEventListener("contentSdkComponents.loaded", () => {
@@ -22,58 +25,67 @@ function App() {
     })
 
     useEffect(() => {
-        const componentSize = { left: 30, center: 40, right: 30 }
-        let centerSize = 100
-        if (drawersDisplayed) {
-            centerSize = centerSize - componentSize.left
-            centerSize = centerSize - componentSize.right
+        instance.checkAuthenticated().then(
+            () => { setIsAuthenticated(true) },
+            () => { setIsAuthenticated(false) }
+        )
+    }, [])
+
+    useEffect(() => {
+        let width = 100
+        let leftMargin = 0
+        let rightMargin = 0
+        if (leftDrawerDisplayed) {
+            width -= 30
+            leftMargin += 30
         }
-        setCenterSize(centerSize)
-    }, [drawersDisplayed,centerSize])
+        if (rightDrawerDisplayed) {
+            width -= 30
+            rightMargin += 30
+        }
+        setCenterSize({ width: `${width}vw`, marginLeft: `${leftMargin}vw`, marginRight: `${rightMargin}vw` })
+    }, [leftDrawerDisplayed, rightDrawerDisplayed])
 
-    const handleDrawers = () => {
-       setDrawersDisplayed(!drawersDisplayed)
-    };
-
-    return (
-        <CenterContext.Provider value={{ centerData, setCenterData }}>
-            <Box sx={{ justifyContent: "center" }}>
-                <Drawer variant="persistent" anchor="left" open={drawersDisplayed}>
-                    <Box sx={{ display: 'flex', width: "30vw" }}>
-                        <SASContentObject objID="contentNavigator" url={vaInfo.url} display={isContentSDKReady} />
-                    </Box>
-                </Drawer>
-                <Box sx={{ display: 'flex', justifyContent: "center", width: "100vw" }} >
-                    <Box sx={{ display: 'flex', width: centerSize + "vw"}}>
+    useEffect(() => {
+        if (isAuthenticated) {
+            setContent(
+                <Box sx={{ justifyContent: "center", flexDirection: "row" }}>
+                    <ContentDrawer />
+                    <Box sx={{ ...centerSize }}>
                         <CenterContent
-                            url={vaInfo.url}
                             data={centerData}
-                            drawers={{maximized: drawersDisplayed , displayDrawers: handleDrawers}}
                         />
                     </Box>
-                </Box>
+                    <RightDrawer />
+                </Box >
+            )
+        } else {
+            setContent(
+                <Typography variant="h3">You are not authenticated!</Typography>
+            )
+        }
+    }, [isAuthenticated, centerData, centerSize])
 
-                <Drawer variant="persistent" anchor="right" open={drawersDisplayed}>
-                    <Grid container xs={12} direction="column" sx={{ display: 'flex', width: "30vw" }}>
-                        <Grid item xs={3}>
-                            <sas-report-object
-                                packageUri='./reports/ICU Pressure'
-                                objectName='ve25' >
-                            </sas-report-object>
-                        </Grid >
-                        <Grid item xs={3}>
-                            <sas-report-object
-                                objectName="ve27648"
-                                authenticationType="credentials"
-                                url={vaInfo.url}
-                                reportUri="/reports/reports/eb897d90-e4fd-4bdf-a764-b61af5c339b8">
-                            </sas-report-object>
-                        </Grid>
-                    </Grid >
-                </Drawer>
-            </Box>
-        </CenterContext.Provider >
-    );
+    const contextValue = {
+        centerData,
+        setCenterData,
+        isAuthenticated,
+        setIsAuthenticated,
+        leftDrawerDisplayed,
+        setLeftDrawerDisplayed,
+        rightDrawerDisplayed,
+        setRightDrawerDisplayed,
+        isContentSDKReady
+    }
+
+    return (
+        <LayoutContext.Provider value={contextValue}>
+            <Box sx={{ justifyContent: "center", flexDirection: "row" }}>
+                <SASAppBar />
+                {content}
+            </Box >
+        </LayoutContext.Provider >
+    )
 }
 
 export default App

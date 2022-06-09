@@ -14,11 +14,14 @@ sas-report{
 
 .sas_components-Tree-Tree_nodes-container {
     max-height: 30vh;
+    min-width: 28vw;
+    max-width: 28vw;
     overflow: auto;
 }
 
 sas-content-breadcrumb .sas_components-Breadcrumb-Breadcrumb_breadcrumb {
-    max-width: 25vw;
+    max-width: 28vw;
+    min-width: 28vw;
 }
 
 sas-content-area .sas_components-Breadcrumb-Breadcrumb_breadcrumb {
@@ -26,7 +29,8 @@ sas-content-area .sas_components-Breadcrumb-Breadcrumb_breadcrumb {
 }
 
 sas-content-area .sas_content-ContentArea-ContentArea_content-area {
-    max-width: 25vw;
+    max-width: 28vw;
+    min-width: 28vw;
     overflow-y: auto;
 }
 
