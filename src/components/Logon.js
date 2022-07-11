@@ -3,7 +3,7 @@ import React from "react"
 import { instance } from "../util/credentials"
 
 const Logon = (props) => {
-    return <Button onClick={() => { instance.loginPopup().then(props.onSuccess) }} sx={{color: "white"}}>
+    return <Button onClick={() => { instance.loginPopup().then(props.onSuccess) }} sx={{ color: "white" }}>
         Login
     </Button>
 }

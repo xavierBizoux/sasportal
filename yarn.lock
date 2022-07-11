@@ -1752,6 +1752,11 @@
   resolved "https://registry.yarnpkg.com/@sassoftware/content-sdk/-/content-sdk-0.5.0.tgz#1c9a56d060bd52b996eb4b5f1147cc5e38bffcfe"
   integrity sha512-4DzrCEMfoEV8qHEe/OiCNAoNCxKemlrCqrnBx99AZpHYysUzy20tRyEssNnFboa+bOrlecUtfbUw43hbibpl/g==
 
+"@sassoftware/conversation-designer-components@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@sassoftware/conversation-designer-components/-/conversation-designer-components-0.3.0.tgz#76a14bf90d8b763651abf7d783577bce04b2f7c0"
+  integrity sha512-3pdPjO3XOknDQiuV8ui/pe1lYLxhRzVlXs2ze298V3GMSOp5HWugpyenRh1/5c3PRSKpdaTSnwQm3yogKRYzeQ==
+
 "@sassoftware/sas-auth-browser@^0.1.1":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@sassoftware/sas-auth-browser/-/sas-auth-browser-0.1.1.tgz#8e7f14be9b8d2b1206301d2db559a651f73feace"
