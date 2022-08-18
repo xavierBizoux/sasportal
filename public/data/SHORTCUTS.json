@@ -1,0 +1,6 @@
+[
+    {"label": "SAS Visual Analytics", "href": "https://live.lts.gel.race.sas.com/SASVisualAnalytics", "position": 1 },
+    {"label": "SAS Studio", "href": "https://live.lts.gel.race.sas.com/SASStudio", "position": 2 },
+    {"label": "Google", "href": "https://www.google.com", "position": 4 },
+    {"label": "SAS Users on YouTube", "href": "https://www.youtube.com/c/sasusers", "position": 3 }
+]

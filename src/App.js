@@ -1,9 +1,9 @@
 import Box from "@mui/material/Box"
-import Typography from "@mui/material/Typography"
 import React, { useEffect, useState } from "react"
 import './App.css'
 import CenterContent from "./components/CenterContent"
 import ContentDrawer from "./components/ContentDrawer"
+import LandingPage from "./components/LandingPage"
 import RightDrawer from "./components/RightDrawer"
 import SASAppBar from "./components/SASAppBar"
 import LayoutContext from "./contexts/LayoutContext"
@@ -61,7 +61,7 @@ function App() {
             )
         } else {
             setContent(
-                <Typography variant="h3">You are not authenticated!</Typography>
+                <LandingPage></LandingPage>
             )
         }
     }, [isAuthenticated, centerData, centerSize])

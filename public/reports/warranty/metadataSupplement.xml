@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<metadataSupplement>
+    <tables>
+        <table dataLocale="en_US" dataSources="ds33" resourceIdentifier="'cas-shared-default','Samples','WARRANTY_CLAIMS_0117','en_US'" tableModifiedTimeStamp="2022-08-05T12:30:26.096Z">
+            <columns>
+                <column dataType="string" label="Campaign Type" xref="claim_attribute_1"/>
+                <column dataType="string" label="Selling Dealer" xref="seller_attribute_5"/>
+                <column dataType="string" label="Vehicle Class" xref="product_attribute_1"/>
+                <column dataType="string" label="Platform" xref="product_attribute_2"/>
+                <column dataType="string" label="Trim Level" xref="product_attribute_3"/>
+                <column dataType="string" label="Make" xref="product_attribute_4"/>
+                <column dataType="string" label="Model Year" xref="product_attribute_5"/>
+                <column dataType="string" label="Customer Country" xref="customer_attribute_1"/>
+                <column dataType="string" label="Engine Model" xref="x_product_attribute7"/>
+                <column dataType="string" label="Vehicle Assembly Plant" xref="x_product_attribute9"/>
+                <column dataType="string" label="Repairing Division" xref="srvc_prvdr_attribute_1"/>
+                <column dataType="string" label="Repairing State/Province" xref="srvc_prvdr_attribute_4"/>
+                <column dataType="string" label="Repairing Region" xref="srvc_prvdr_attribute_2"/>
+                <column dataType="string" label="Repairing Country" xref="srvc_prvdr_attribute_3"/>
+                <column dataType="string" label="Repairing Dealer" xref="srvc_prvdr_attribute_5"/>
+                <column dataType="string" label="Primary Labor Group" xref="primary_labor_group_desc"/>
+                <column dataType="string" label="Primary Labor Description" xref="primary_labor_desc"/>
+                <column dataType="double" format="BEST12." label="Total Claim Count" xref="total_claim_count"/>
+                <column dataType="date" format="DATE9" label="Claim Repair Start Date" xref="CLAIM_REPAIR_START_DT_SK"/>
+                <column dataType="date" format="DATE9" label="Claim Repair End Date" xref="CLAIM_REPAIR_END_DT_SK"/>
+                <column dataType="date" format="DATE9" label="Claim Processed Date" xref="CLAIM_PROCESSED_DT_SK"/>
+                <column dataType="date" format="DATE9" label="Claim Submitted Date" xref="CLAIM_SUBMITTED_DT_SK"/>
+                <column dataType="string" label="Primary Labor Code" xref="PRIMARY_LABOR_CD"/>
+                <column dataType="double" format="BEST12." label="Defect Key" xref="DEFECT_SK"/>
+                <column dataType="string" label="Primary Labor Group Code" xref="PRIMARY_LABOR_GROUP_CD"/>
+                <column dataType="string" label="Primary Replaced  Material ID" xref="PRIMARY_MATERIAL_ID"/>
+                <column dataType="string" label="Primary Replaced Material Group Code" xref="PRIMARY_MATERIAL_GROUP_CD"/>
+                <column dataType="string" label="Warranty Claim ID" xref="WARRANTY_CLAIM_ID"/>
+                <column dataType="double" format="BEST12." label="Usage Value" xref="USAGE_VALUE"/>
+                <column dataType="double" format="COMMA10." label="Gross Claim Amount" xref="GROSS_CLAIM_AMT"/>
+                <column dataType="double" format="COMMA10." label="Gross Labor Amount" xref="GROSS_LABOR_AMT"/>
+                <column dataType="double" format="COMMA10." label="Gross Material Amount" xref="GROSS_MATERIAL_AMT"/>
+                <column dataType="double" format="COMMA10." label="Gross Other Amount" xref="GROSS_OTHER_AMT"/>
+                <column dataType="string" label="Product unit ID" xref="PRODUCT_ID"/>
+                <column dataType="string" label="Product Model" xref="PRODUCT_MODEL_CD"/>
+                <column dataType="date" format="DATE9" label="Product unit Assembly Date" xref="PRODUCTION_DT"/>
+                <column dataType="date" format="DATE9" label="In-Service Year Date" xref="IN_SERVICE_DT"/>
+                <column dataType="date" format="DATE9" label="Ship Date" xref="SHIP_DT"/>
+                <column dataType="string" label="Ship Year" xref="SHIP_YEAR_CD"/>
+                <column dataType="string" label="Defect Code" xref="DEFECT_CD"/>
+                <column dataType="double" format="F9.4" label="Latitude" xref="service_provider_latitude"/>
+                <column dataType="double" format="F9.4" label="Longitude" xref="service_provider_longitude"/>
+            </columns>
+        </table>
+        <table dataLocale="en_US" dataSources="ds24112" resourceIdentifier="'cas-shared-default','Samples','COSTCHANGE','en_US'" tableModifiedTimeStamp="2022-08-05T12:30:27.877Z">
+            <columns>
+                <column dataType="string" label="Ship Year" xref="shipyear"/>
+                <column dataType="string" label="Primary Labor Group" xref="primarylaborgroup"/>
+                <column dataType="double" format="BEST12." label="total_Claim_Count" xref="total_Claim_Count"/>
+                <column dataType="double" format="BEST12." label="gross_claim_amt" xref="gross_claim_amt"/>
+                <column dataType="double" format="BEST12." label="gross_labor_amt" xref="gross_labor_amt"/>
+                <column dataType="double" format="BEST12." label="gross_material_amt" xref="gross_material_amt"/>
+                <column dataType="double" format="BEST12." label="prev_total_claim_count" xref="prev_total_claim_count"/>
+                <column dataType="double" format="BEST12." label="prev_gross_claim_amt" xref="prev_gross_claim_amt"/>
+                <column dataType="double" format="BEST12." label="prev_gross_labor_amt" xref="prev_gross_labor_amt"/>
+                <column dataType="double" format="BEST12." label="prev_gross_material_amt" xref="prev_gross_material_amt"/>
+            </columns>
+        </table>
+    </tables>
+    <version>2</version>
+</metadataSupplement>
