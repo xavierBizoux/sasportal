@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script async src='https://unpkg.com/@sassoftware/va-report-components@latest/dist/umd/va-report-components.js'></script>
+    <!--
+    Uncomment the stylesheet link below to access the fonts in the SAS Viya deployment.
+       Risk: This change requires a live connection to SAS Viya.
+       Reward: This change enables access to the fonts that were used to design the report.
+    <link rel='stylesheet' type='text/css' href='css/viyafonts.css' />
+    -->
+    <style>
+      body {margin: 0px; padding: 0px;}
+      sas-report,
+      sas-report-page,
+      sas-report-object {width: 100vw; height: 100vh;}
+    </style>
+  </head>
+  <body>
+    <!-- Ship Year Filter for Cost Overview -->
+    <sas-report-object packageUri='.' objectName='ve27590' ></sas-report-object>
+    <!-- Total Warranty Cost Key Value -->
+    <sas-report-object packageUri='.' objectName='ve27604' ></sas-report-object>
+    <!-- Total Part Cost -->
+    <sas-report-object packageUri='.' objectName='ve27618' ></sas-report-object>
+    <!--  Total Labor Cost Key Value -->
+    <sas-report-object packageUri='.' objectName='ve27632' ></sas-report-object>
+    <!-- Total Claim Count Key Value -->
+    <sas-report-object packageUri='.' objectName='ve28641' ></sas-report-object>
+  </body>
+</html>

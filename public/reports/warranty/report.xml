@@ -1,0 +1,3527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SASReport xmlns="http://www.sas.com/sasreportmodel/bird-4.18.0" label="Warranty Analysis" implicitInteractions="sectionPrompt reportPrompt" createdLocale="en_US" createdVersion="4.0.2" dateCreated="2017-03-13T21:29:26Z" dateModified="2018-06-21T19:11:10Z" createdApplication="SAS Visual Analytics 8.1" lastModifiedApplication="SAS Visual Analytics 8.3" nextUniqueNameIndex="32423">
+	<Results>
+		<Result ref="dd27692" type="relational" status="success" dataLevel="baseline" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-08-05T12:30:26.096Z">
+			<Variables>
+				<StringVariable label="Ship Year" ref="bi27689" varname="bi27689" column="c0"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+			</Columns>
+			<DefinedSortItems>
+				<DefinedSortItem variable="bi27689" sortDirection="ascending"/>
+			</DefinedSortItems>
+			<Data isIndexed="true" availableRowCount="4" contentKey="QGMYJX3SNFG7UA7R57VGCMQ67EVZHVCN" size="8" format="CSV" rowCount="4" grandTotal="false" dataLayout="minimal"><![CDATA[0
+1
+2
+3
+]]></Data>
+			<StringTable contentKey="EWV54PYMQGT66S5R7I4TRDDOF77V7PCI" size="28" format="CSV" rowCount="4"><![CDATA["2015"
+"2016"
+"2017"
+"2018"
+]]></StringTable>
+		</Result>
+		<Result ref="dd27696" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-08-05T12:30:26.096Z">
+			<Variables>
+				<StringVariable label="Ship Year" ref="bi32404" varname="bi32404" column="c0"/>
+				<NumericVariable format="DOLLAR13." usage="quantitative" definedAggregation="sum" label="Gross Claim Amount" ref="bi27594" varname="bi27594" column="c1"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<NumericAggregations colname="c1" encoding="text">
+					<DataColumn dataType="double" aggregation="sum"/>
+				</NumericAggregations>
+			</Columns>
+			<DefinedColumnSortItems>
+				<DefinedMeasureSortItem variable="bi27594" sortDirection="descending"/>
+			</DefinedColumnSortItems>
+			<Data isIndexed="true" availableRowCount="4" contentKey="K7ZVS3PYJX6XANRGM5NUEPC4ZT6ZXPBI" size="89" format="CSV" rowCount="4" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[1,3.3092206447794225E7
+2,2.881283717649795E7
+0,1.6966479574551858E7
+3,3900242.6316759908
+]]></Data>
+			<StringTable contentKey="EWV54PYMQGT66S5R7I4TRDDOF77V7PCI" size="28" format="CSV" rowCount="4"><![CDATA["2015"
+"2016"
+"2017"
+"2018"
+]]></StringTable>
+		</Result>
+		<Result ref="dd27701" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-08-05T12:30:26.096Z">
+			<Variables>
+				<StringVariable label="Ship Year" ref="bi32405" varname="bi32405" column="c0"/>
+				<NumericVariable format="DOLLAR13." usage="quantitative" definedAggregation="sum" label="Gross Material Amount" ref="bi27608" varname="bi27608" column="c1"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<NumericAggregations colname="c1" encoding="text">
+					<DataColumn dataType="double" aggregation="sum"/>
+				</NumericAggregations>
+			</Columns>
+			<DefinedColumnSortItems>
+				<DefinedMeasureSortItem variable="bi27608" sortDirection="descending"/>
+			</DefinedColumnSortItems>
+			<Data isIndexed="true" availableRowCount="4" contentKey="D66BSYSYPRXXESMZYOG7EZ6TLITRKYDM" size="87" format="CSV" rowCount="4" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[1,1.93750427824411E7
+2,1.8566123454876132E7
+0,1.0087355123086888E7
+3,2543390.194794421
+]]></Data>
+			<StringTable contentKey="EWV54PYMQGT66S5R7I4TRDDOF77V7PCI" size="28" format="CSV" rowCount="4"><![CDATA["2015"
+"2016"
+"2017"
+"2018"
+]]></StringTable>
+		</Result>
+		<Result ref="dd27706" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-08-05T12:30:26.096Z">
+			<Variables>
+				<StringVariable label="Ship Year" ref="bi32406" varname="bi32406" column="c0"/>
+				<NumericVariable format="DOLLAR13." usage="quantitative" definedAggregation="sum" label="Gross Labor Amount" ref="bi27622" varname="bi27622" column="c1"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<NumericAggregations colname="c1" encoding="text">
+					<DataColumn dataType="double" aggregation="sum"/>
+				</NumericAggregations>
+			</Columns>
+			<DefinedColumnSortItems>
+				<DefinedMeasureSortItem variable="bi27622" sortDirection="descending"/>
+			</DefinedColumnSortItems>
+			<Data isIndexed="true" availableRowCount="4" contentKey="YZG3SVVPKEWSMUTQ65JNDJ6LDBY2OY5L" size="83" format="CSV" rowCount="4" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[1,1.2229645441179793E7
+2,8934462.97973207
+0,5846364.531588972
+3,1204400.8962233928
+]]></Data>
+			<StringTable contentKey="EWV54PYMQGT66S5R7I4TRDDOF77V7PCI" size="28" format="CSV" rowCount="4"><![CDATA["2015"
+"2016"
+"2017"
+"2018"
+]]></StringTable>
+		</Result>
+		<Result ref="dd28644" type="relational" status="success" dataLevel="interactive" label="Results" dataLocale="en_US" consumerDataModel="aggregated" supportsExportDetail="true" supportsCustomQuery="true" sortLocale="en_US" tableDateModified="2022-08-05T12:30:26.096Z">
+			<Variables>
+				<StringVariable label="Ship Year" ref="bi32407" varname="bi32407" column="c0"/>
+				<NumericVariable format="COMMA13." usage="quantitative" definedAggregation="sum" label="Total Claim Count" ref="bi28647" varname="bi28647" column="c1"/>
+			</Variables>
+			<Columns>
+				<StringColumn maxLength="1" colname="c0" encoding="text"/>
+				<NumericAggregations colname="c1" encoding="text">
+					<DataColumn dataType="double" aggregation="sum"/>
+				</NumericAggregations>
+			</Columns>
+			<DefinedColumnSortItems>
+				<DefinedMeasureSortItem variable="bi28647" sortDirection="descending"/>
+			</DefinedColumnSortItems>
+			<Data isIndexed="true" availableRowCount="4" contentKey="BPGC2H7JMMYJSP7W52TWA5SR2NIQFXQR" size="39" format="CSV" rowCount="4" grandTotal="false" dataLayout="partiallyAggregated"><![CDATA[1,67288.0
+2,49606.0
+0,30631.0
+3,5692.0
+]]></Data>
+			<StringTable contentKey="EWV54PYMQGT66S5R7I4TRDDOF77V7PCI" size="28" format="CSV" rowCount="4"><![CDATA["2015"
+"2016"
+"2017"
+"2018"
+]]></StringTable>
+		</Result>
+	</Results>
+	<DataDefinitions>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd929">
+			<BusinessItems>
+				<RelationalDataItem name="bi951" base="bi50"/>
+				<RelationalDataItem name="bi1308" base="bi76"/>
+				<RelationalDataItem name="bi32380" base="bi69"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="relational" name="dd930">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi951"/>
+							<BusinessItem ref="bi1308"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi951" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRows="500" maxRowsLookup="dropdown" maxRowsBehavior="truncate" name="dd931"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters/>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd959">
+			<BusinessItems>
+				<RelationalDataItem name="bi965" base="bi59"/>
+				<RelationalDataItem name="bi967" base="bi50"/>
+				<RelationalFilterItem label="Make Filter" name="bi968">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+					</EditorProperties>
+					<Expression>eq(${bi967,binned},#{pr952})</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi1309" base="bi76"/>
+				<RelationalDataItem name="bi32381" base="bi69"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="relational" name="dd960">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi965"/>
+							<BusinessItem ref="bi1309"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi965" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRows="500" maxRowsLookup="dropdown" maxRowsBehavior="truncate" name="dd961"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters ignoreDataSourceFilters="false">
+				<DetailFilters>
+					<BusinessItem ref="bi968"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd972">
+			<BusinessItems>
+				<RelationalDataItem name="bi976" base="bi51"/>
+				<RelationalDataItem name="bi978" base="bi59"/>
+				<RelationalDataItem name="bi979" base="bi50"/>
+				<RelationalFilterItem label="Make and Model Filter" name="bi980">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+					</EditorProperties>
+					<Expression>and(eq(${bi978,binned},#{pr966}),eq(${bi979,binned},#{pr952}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi1310" base="bi76"/>
+				<RelationalDataItem name="bi32382" base="bi69"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="relational" name="dd973">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi976"/>
+							<BusinessItem ref="bi1310"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi976" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRows="500" maxRowsLookup="dropdown" maxRowsBehavior="truncate" name="dd974"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters ignoreDataSourceFilters="false">
+				<DetailFilters>
+					<BusinessItem ref="bi980"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd2343">
+			<BusinessItems>
+				<RelationalDataItem name="bi2347" base="bi820"/>
+				<RelationalDataItem name="bi2348" base="bi43"/>
+				<RelationalDataItem name="bi2349" base="bi70"/>
+				<RelationalDataItem name="bi32383" base="bi54"/>
+				<RelationalDataItem name="bi32384" base="bi69"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="multidimensional" name="dd2344">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi2347"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi2348"/>
+							<BusinessItem ref="bi2349"/>
+						</Axis>
+					</Axes>
+					<ColumnSortItems>
+						<SortItem ref="bi2347" sortDirection="ascending"/>
+					</ColumnSortItems>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRows="4000" maxRowsLookup="graphDefault" maxRowsBehavior="noData" name="dd2345"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd3460">
+			<BusinessItems>
+				<RelationalDataItem name="bi3464" base="bi55"/>
+				<RelationalDataItem name="bi3466" base="bi70"/>
+				<RelationalDataItem name="bi3821" base="bi35"/>
+				<RelationalFilterItem label="Date Filter" name="bi3822">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+					</EditorProperties>
+					<Expression>le(${bi3821,binned},datepart(now()))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi29475" base="bi43"/>
+				<RelationalDataItem name="bi29476" base="bi423"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="multidimensional" name="dd3461">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi3464"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi3466"/>
+							<BusinessItem ref="bi29475"/>
+							<BusinessItem ref="bi29476"/>
+						</Axis>
+					</Axes>
+					<ColumnSortItems>
+						<MeasureSortItem ref="bi3466" sortDirection="descending"/>
+						<SortItem ref="bi3464" sortDirection="ascending"/>
+					</ColumnSortItems>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRows="3000" maxRowsLookup="graphDefault" maxRowsBehavior="noData" name="dd3462"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi3822"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd3526">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi3538" base="bi35"/>
+				<RelationalDataItem name="bi3543" base="bi44"/>
+				<RelationalFilterItem label="Gross Claim Amount Forecast Filter" name="bi3588">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+					</EditorProperties>
+					<Expression>le(${bi3538,binned},datepart(now()))</Expression>
+				</RelationalFilterItem>
+				<SyntheticItems name="si23569">
+					<Item purpose="algorithm" name="bi3530"/>
+					<Item purpose="dependentVariableLabel" name="bi3531"/>
+					<Item purpose="contributingIndependentVariables" name="bi3532"/>
+					<Item purpose="status" name="bi3533"/>
+					<Item purpose="firstForecastRow" name="bi3534"/>
+					<Item purpose="firstForecastDate" name="bi3535"/>
+					<Item purpose="actualLabel" name="bi23578"/>
+					<Item purpose="modelLabel" name="bi23579"/>
+				</SyntheticItems>
+				<SyntheticItems name="si23570">
+					<Item purpose="aboutOutputInfo" name="bi3536"/>
+				</SyntheticItems>
+				<SyntheticItems root="bi3543" name="si23575">
+					<Item purpose="upperConfidence" name="bi3544"/>
+					<Item purpose="lowerConfidence" name="bi3545"/>
+					<Item purpose="baseline" name="bi3546"/>
+					<Item purpose="actual" name="bi23576"/>
+					<Item purpose="forecast" name="bi23577"/>
+				</SyntheticItems>
+				<RelationalDataItem name="bi28316" base="bi35"/>
+				<RelationalFilterItem name="bi28317">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi28316,binned},20629,21359),ismissing(${bi28316,binned}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi32385" base="bi55"/>
+				<SyntheticItems name="si32411">
+					<Item purpose="textSummary" name="bi32413"/>
+				</SyntheticItems>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="procedural" name="dd3527">
+				<ProceduralQuery type="forecast">
+					<Arguments>
+						<Argument purpose="timeSeries">
+							<ReferenceValue>bi3538</ReferenceValue>
+						</Argument>
+						<ListArgument purpose="dependentVariables">
+							<ArgumentGroup group="dependentVariableGroup">
+								<Argument purpose="dependentVariable">
+									<ReferenceValue>bi3543</ReferenceValue>
+								</Argument>
+							</ArgumentGroup>
+						</ListArgument>
+						<Argument purpose="confidenceInterval">
+							<DoubleValue>0.95</DoubleValue>
+						</Argument>
+						<Argument purpose="horizon">
+							<IntValue>24</IntValue>
+						</Argument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRows="10000" maxRowsBehavior="noData" name="dd3528" syntheticItems="si23575"/>
+					<ResultDefinition purpose="dependentVarOutputInfo" name="dd3549" syntheticItems="si23569"/>
+					<ResultDefinition purpose="aboutOutputInfoGroup" name="dd3550" syntheticItems="si23570"/>
+					<ResultDefinition purpose="textSummary" name="dd32412" syntheticItems="si32411"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi3588"/>
+					<BusinessItem ref="bi28317"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd3576">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi3800" base="bi35"/>
+				<RelationalDataItem name="bi3805" base="bi45"/>
+				<RelationalFilterItem label="Date Filter" name="bi3823">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+					</EditorProperties>
+					<Expression>le(${bi3800,binned},datepart(now()))</Expression>
+				</RelationalFilterItem>
+				<SyntheticItems name="si23571">
+					<Item purpose="algorithm" name="bi3791"/>
+					<Item purpose="dependentVariableLabel" name="bi3792"/>
+					<Item purpose="contributingIndependentVariables" name="bi3793"/>
+					<Item purpose="status" name="bi3794"/>
+					<Item purpose="firstForecastRow" name="bi3795"/>
+					<Item purpose="firstForecastDate" name="bi3796"/>
+					<Item purpose="actualLabel" name="bi23583"/>
+					<Item purpose="modelLabel" name="bi23584"/>
+				</SyntheticItems>
+				<SyntheticItems name="si23572">
+					<Item purpose="aboutOutputInfo" name="bi3797"/>
+				</SyntheticItems>
+				<SyntheticItems root="bi3805" name="si23580">
+					<Item purpose="upperConfidence" name="bi3806"/>
+					<Item purpose="lowerConfidence" name="bi3807"/>
+					<Item purpose="baseline" name="bi3808"/>
+					<Item purpose="actual" name="bi23581"/>
+					<Item purpose="forecast" name="bi23582"/>
+				</SyntheticItems>
+				<RelationalDataItem name="bi28262" base="bi35"/>
+				<RelationalFilterItem name="bi28263">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi28262,binned},21114,21359),ismissing(${bi28262,binned}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi32386" base="bi55"/>
+				<SyntheticItems name="si32415">
+					<Item purpose="textSummary" name="bi32417"/>
+				</SyntheticItems>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="procedural" name="dd3577">
+				<ProceduralQuery type="forecast">
+					<Arguments>
+						<Argument purpose="timeSeries">
+							<ReferenceValue>bi3800</ReferenceValue>
+						</Argument>
+						<ListArgument purpose="dependentVariables">
+							<ArgumentGroup group="dependentVariableGroup">
+								<Argument purpose="dependentVariable">
+									<ReferenceValue>bi3805</ReferenceValue>
+								</Argument>
+							</ArgumentGroup>
+						</ListArgument>
+						<Argument purpose="confidenceInterval">
+							<DoubleValue>0.95</DoubleValue>
+						</Argument>
+						<Argument purpose="horizon">
+							<IntValue>24</IntValue>
+						</Argument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRows="10000" maxRowsBehavior="noData" name="dd3578" syntheticItems="si23580"/>
+					<ResultDefinition purpose="dependentVarOutputInfo" name="dd3813" syntheticItems="si23571"/>
+					<ResultDefinition purpose="aboutOutputInfoGroup" name="dd3814" syntheticItems="si23572"/>
+					<ResultDefinition purpose="textSummary" name="dd32416" syntheticItems="si32415"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi3823"/>
+					<BusinessItem ref="bi28263"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd3945">
+			<BusinessItems>
+				<RelationalDataItem binOption="formatBin" name="bi3957" base="bi35"/>
+				<RelationalDataItem name="bi3962" base="bi70"/>
+				<RelationalFilterItem label="Date Filter" name="bi3972">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+					</EditorProperties>
+					<Expression>le(${bi3957,binned},datepart(now()))</Expression>
+				</RelationalFilterItem>
+				<SyntheticItems name="si23573">
+					<Item purpose="algorithm" name="bi3949"/>
+					<Item purpose="dependentVariableLabel" name="bi3950"/>
+					<Item purpose="contributingIndependentVariables" name="bi3951"/>
+					<Item purpose="status" name="bi3952"/>
+					<Item purpose="firstForecastRow" name="bi3953"/>
+					<Item purpose="firstForecastDate" name="bi3954"/>
+					<Item purpose="actualLabel" name="bi23588"/>
+					<Item purpose="modelLabel" name="bi23589"/>
+				</SyntheticItems>
+				<SyntheticItems name="si23574">
+					<Item purpose="aboutOutputInfo" name="bi3955"/>
+				</SyntheticItems>
+				<SyntheticItems root="bi3962" name="si23585">
+					<Item purpose="upperConfidence" name="bi3963"/>
+					<Item purpose="lowerConfidence" name="bi3964"/>
+					<Item purpose="baseline" name="bi3965"/>
+					<Item purpose="actual" name="bi23586"/>
+					<Item purpose="forecast" name="bi23587"/>
+				</SyntheticItems>
+				<RelationalDataItem name="bi28350" base="bi35"/>
+				<RelationalFilterItem name="bi28351">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">TRUE</Property>
+					</EditorProperties>
+					<Expression>or(between(${bi28350,binned},20629,21359),ismissing(${bi28350,binned}))</Expression>
+				</RelationalFilterItem>
+				<SyntheticItems name="si32419">
+					<Item purpose="textSummary" name="bi32421"/>
+				</SyntheticItems>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="procedural" name="dd3946">
+				<ProceduralQuery type="forecast">
+					<Arguments>
+						<Argument purpose="timeSeries">
+							<ReferenceValue>bi3957</ReferenceValue>
+						</Argument>
+						<ListArgument purpose="dependentVariables">
+							<ArgumentGroup group="dependentVariableGroup">
+								<Argument purpose="dependentVariable">
+									<ReferenceValue>bi3962</ReferenceValue>
+								</Argument>
+							</ArgumentGroup>
+						</ListArgument>
+						<Argument purpose="confidenceInterval">
+							<DoubleValue>0.95</DoubleValue>
+						</Argument>
+						<Argument purpose="horizon">
+							<IntValue>24</IntValue>
+						</Argument>
+					</Arguments>
+				</ProceduralQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRows="10000" maxRowsBehavior="noData" name="dd3947" syntheticItems="si23585"/>
+					<ResultDefinition purpose="dependentVarOutputInfo" name="dd3966" syntheticItems="si23573"/>
+					<ResultDefinition purpose="aboutOutputInfoGroup" name="dd3967" syntheticItems="si23574"/>
+					<ResultDefinition purpose="textSummary" name="dd32420" syntheticItems="si32419"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi3972"/>
+					<BusinessItem ref="bi28351"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd18565">
+			<BusinessItems>
+				<RelationalDataItem name="bi18569" base="bi54"/>
+				<RelationalDataItem name="bi18571" base="bi43"/>
+				<RelationalDataItem name="bi18572" base="bi70"/>
+				<RelationalDataItem name="bi32387" base="bi69"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="multidimensional" name="dd18566">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi18569"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi18571"/>
+							<BusinessItem ref="bi18572"/>
+						</Axis>
+					</Axes>
+					<ColumnSortItems>
+						<MeasureSortItem ref="bi18571" sortDirection="descending"/>
+					</ColumnSortItems>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRows="100" maxRowsLookup="wordCloud" maxRowsBehavior="truncate" name="dd18567"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<RankItems>
+				<RankItem rankBy="bi18571" groupBy="bi18569" n="10" includeTies="false" other="false" subset="top" type="count" name="rk32408"/>
+			</RankItems>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="spark" status="executable" dataSource="ds33" name="dd751">
+			<BusinessItems>
+				<RelationalDataItem name="bi754" base="bi50"/>
+				<RelationalDataItem name="bi757" base="bi53"/>
+				<RelationalDataItem name="bi758" base="bi54"/>
+				<RelationalDataItem name="bi759" base="bi43"/>
+				<RelationalDataItem name="bi760" base="bi44"/>
+				<RelationalDataItem name="bi761" base="bi45"/>
+				<RelationalDataItem name="bi762" base="bi46"/>
+				<RelationalDataItem binOption="calendar" maxCardinality="40" minCardinality="20" name="bi24471" base="bi35"/>
+				<RelationalDataItem name="bi24531" base="bi70"/>
+				<RelationalDataItem name="bi24532" base="bi423"/>
+				<RelationalDataItem name="bi24533" base="bi424"/>
+				<RelationalDataItem name="bi24534" base="bi425"/>
+				<RelationalDataItem name="bi32388" base="bi69"/>
+				<MultidimensionalDataItem name="bi32389" base="bi385"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="relational" name="dd752">
+				<RelationalQuery columnTotals="true" detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi754"/>
+							<BusinessItem ref="bi757"/>
+							<BusinessItem ref="bi758"/>
+							<BusinessItem ref="bi759"/>
+							<BusinessItem ref="bi760"/>
+							<BusinessItem ref="bi761"/>
+							<BusinessItem ref="bi762"/>
+							<BusinessItem ref="bi24531"/>
+							<BusinessItem ref="bi24532"/>
+							<BusinessItem ref="bi24533"/>
+							<BusinessItem ref="bi24534"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi754" sortDirection="descending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRows="40000" maxRowsLookup="listTable" maxRowsBehavior="truncate" name="dd753"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<DataDefinition dataSource="ds33" type="multidimensional" name="dd24469">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi754"/>
+							<BusinessItem ref="bi757"/>
+							<BusinessItem ref="bi758"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi759"/>
+							<BusinessItem ref="bi24471"/>
+						</Axis>
+					</Axes>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd24470"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters/>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd25240">
+			<BusinessItems>
+				<RelationalDataItem name="bi2330" base="bi44"/>
+				<RelationalDataItem name="bi2333" base="bi63"/>
+				<RelationalDataItem name="bi32390" base="bi54"/>
+				<RelationalDataItem name="bi32391" base="bi69"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="multidimensional" name="dd25241">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi2333"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi2330"/>
+						</Axis>
+					</Axes>
+					<ColumnSortItems>
+						<SortItem ref="bi2333" sortDirection="ascending"/>
+					</ColumnSortItems>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="graphDefault" maxRowsBehavior="noData" name="dd25242"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd27076">
+			<BusinessItems>
+				<RelationalDataItem name="bi27063" base="bi61"/>
+				<RelationalDataItem name="bi27061" base="bi50"/>
+				<RelationalDataItem name="bi27060" base="bi59"/>
+				<RelationalDataItem name="bi27064" base="bi42"/>
+				<RelationalDataItem name="bi27065" base="bi53"/>
+				<RelationalDataItem name="bi27066" base="bi54"/>
+				<RelationalDataItem name="bi27067" base="bi57"/>
+				<RelationalDataItem name="bi27068" base="bi60"/>
+				<RelationalDataItem name="bi27069" base="bi73"/>
+				<RelationalDataItem name="bi27071" base="bi43"/>
+				<RelationalDataItem name="bi27072" base="bi44"/>
+				<RelationalDataItem name="bi27073" base="bi45"/>
+				<RelationalDataItem name="bi27074" base="bi46"/>
+				<RelationalDataItem name="bi27059" base="bi69"/>
+				<RelationalDataItem name="bi27062" base="bi51"/>
+				<RelationalFilterItem label="All Prompts Filter" name="bi27075">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+					</EditorProperties>
+					<Expression>and(eq(${bi27059,binned},#{pr92}),eq(${bi27060,binned},#{pr966}),eq(${bi27061,binned},#{pr952}),eq(${bi27062,binned},#{pr977}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi32392" base="bi38"/>
+				<MultidimensionalDataItem name="bi32393" base="bi385"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="relational" name="dd27077">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi27063"/>
+							<BusinessItem ref="bi27061"/>
+							<BusinessItem ref="bi27060"/>
+							<BusinessItem ref="bi27064"/>
+							<BusinessItem ref="bi27065"/>
+							<BusinessItem ref="bi27066"/>
+							<BusinessItem ref="bi27067"/>
+							<BusinessItem ref="bi27068"/>
+							<BusinessItem ref="bi27069"/>
+							<BusinessItem ref="bi27071"/>
+							<BusinessItem ref="bi27072"/>
+							<BusinessItem ref="bi27073"/>
+							<BusinessItem ref="bi27074"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi27066" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRows="40000" maxRowsLookup="listTable" maxRowsBehavior="truncate" name="dd27058"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi27075"/>
+				</DetailFilters>
+			</AppliedFilters>
+			<RankItems>
+				<RankItem rankBy="bi27071" groupBy="bi27063" n="pr1123" includeTies="true" subset="top" type="count" name="rk32409"/>
+			</RankItems>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd27119">
+			<BusinessItems>
+				<RelationalDataItem name="bi25184" base="bi70"/>
+				<RelationalFilterItem label="All Prompts Filter" name="bi24997">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+					</EditorProperties>
+					<Expression>and(eq(${bi24994,binned},#{pr966}),eq(${bi24995,binned},#{pr952}),eq(${bi24996,binned},#{pr977}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi24994" base="bi59"/>
+				<RelationalDataItem name="bi24995" base="bi50"/>
+				<RelationalDataItem name="bi24996" base="bi51"/>
+				<RelationalDataItem name="bi27127" base="bi27126"/>
+				<RelationalDataItem name="bi28123" base="bi38"/>
+				<RelationalFilterItem name="bi30555">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+					</EditorProperties>
+					<Expression>le(${bi28123,binned},datepart(now()))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi32394" base="bi54"/>
+				<MultidimensionalDataItem name="bi32395" base="bi385"/>
+				<RelationalDataItem name="bi32396" base="bi69"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="multidimensional" name="dd27120">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi28123"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi25184"/>
+							<BusinessItem ref="bi27127"/>
+						</Axis>
+					</Axes>
+					<ColumnSortItems>
+						<SortItem ref="bi28123" sortDirection="ascending"/>
+					</ColumnSortItems>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRows="3000" maxRowsLookup="graphDefault" maxRowsBehavior="noData" name="dd27121"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi24997"/>
+					<BusinessItem ref="bi30555"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd27154">
+			<BusinessItems>
+				<RelationalDataItem name="bi1035" base="bi45"/>
+				<RelationalDataItem name="bi1036" base="bi44"/>
+				<RelationalFilterItem label="Advanced Filter" name="bi24991">
+					<EditorProperties>
+						<Property key="complexity">ADVANCED</Property>
+					</EditorProperties>
+					<Expression>and(eq(${bi24988,binned},#{pr966}),eq(${bi24992,binned},#{pr952}),eq(${bi24990,binned},#{pr977}))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi24988" base="bi59"/>
+				<RelationalDataItem name="bi24990" base="bi51"/>
+				<RelationalDataItem name="bi24992" base="bi50"/>
+				<RelationalDataItem name="bi26732" base="bi54"/>
+				<RelationalDataItem name="bi26733" base="bi43"/>
+				<MultidimensionalDataItem name="bi29365" base="bi385"/>
+				<RelationalDataItem name="bi32397" base="bi69"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="multidimensional" name="dd27155">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi26732"/>
+							<BusinessItem ref="bi29365"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi1035"/>
+							<BusinessItem ref="bi1036"/>
+						</Axis>
+					</Axes>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="treeMap" maxRowsBehavior="truncate" name="dd27156"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi24991"/>
+				</DetailFilters>
+			</AppliedFilters>
+			<RankItems>
+				<RankItem rankBy="bi26733" groupBy="bi26732" n="10" includeTies="true" other="false" subset="top" type="count" name="rk32410"/>
+			</RankItems>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd27225">
+			<BusinessItems>
+				<RelationalDataItem name="bi27236" base="bi53"/>
+				<RelationalDataItem name="bi32398" base="bi38"/>
+				<RelationalDataItem name="bi32399" base="bi54"/>
+				<MultidimensionalDataItem name="bi32400" base="bi385"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="relational" name="dd27226">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi27236"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi27236" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="textInput" maxRowsBehavior="truncate" name="dd27227"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd27325">
+			<BusinessItems>
+				<RelationalDataItem name="bi27368" base="bi69"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="relational" name="dd27326">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi27368"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi27368" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="buttonBar" maxRowsBehavior="truncate" name="dd27327"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd27371">
+			<BusinessItems>
+				<RelationalDataItem name="bi27375" base="bi69"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="relational" name="dd27372">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi27375"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi27375" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="buttonBar" maxRowsBehavior="truncate" name="dd27373"/>
+				</ResultDefinitions>
+			</DataDefinition>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd27690">
+			<BusinessItems>
+				<RelationalDataItem name="bi27689" base="bi69"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="relational" name="dd27691">
+				<RelationalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi27689"/>
+						</Axis>
+					</Axes>
+					<SortItems>
+						<SortItem ref="bi27689" sortDirection="ascending"/>
+					</SortItems>
+				</RelationalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="buttonBar" maxRowsBehavior="truncate" name="dd27692"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters/>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd27645">
+			<BusinessItems>
+				<MultidimensionalDataItem name="bi27637" base="bi385"/>
+				<RelationalDataItem name="bi27641" base="bi45"/>
+				<RelationalDataItem name="bi27642" base="bi44"/>
+				<RelationalDataItem name="bi27643" base="bi46"/>
+				<RelationalDataItem name="bi32401" base="bi69"/>
+				<RelationalDataItem name="bi32402" base="bi55"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="multidimensional" name="dd27646">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi27637"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi27641"/>
+							<BusinessItem ref="bi27642"/>
+							<BusinessItem ref="bi27643"/>
+						</Axis>
+					</Axes>
+					<ColumnSortItems>
+						<MeasureSortItem ref="bi27641" sortDirection="descending"/>
+						<SortItem ref="bi27637" sortDirection="ascending"/>
+					</ColumnSortItems>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRows="3000" maxRowsLookup="graphDefault" maxRowsBehavior="truncate" name="dd27639"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters/>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds24112" name="dd27660">
+			<BusinessItems>
+				<RelationalDataItem name="bi27654" base="bi24117"/>
+				<RelationalDataItem name="bi27656" base="bi24118"/>
+				<RelationalDataItem name="bi27653" base="bi24116"/>
+				<RelationalDataItem name="bi27655" base="bi24114"/>
+				<RelationalDataItem name="bi27657" base="bi24115"/>
+				<RelationalDataItem name="bi27658" base="bi24113"/>
+				<RelationalDataItem name="bi27650" base="bi24120"/>
+				<RelationalDataItem name="bi32403" base="bi24121"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds24112" type="multidimensional" name="dd27661">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column">
+							<BusinessItem ref="bi27650"/>
+						</Axis>
+						<Axis type="row">
+							<BusinessItem ref="bi27653"/>
+							<BusinessItem ref="bi27654"/>
+							<BusinessItem ref="bi27655"/>
+							<BusinessItem ref="bi27656"/>
+							<BusinessItem ref="bi27657"/>
+							<BusinessItem ref="bi27658"/>
+						</Axis>
+					</Axes>
+					<ColumnSortItems>
+						<SortItem ref="bi27650" sortDirection="ascending"/>
+					</ColumnSortItems>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" maxRowsLookup="graphDefault" maxRowsBehavior="noData" name="dd27651"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters/>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd27694">
+			<BusinessItems>
+				<RelationalDataItem name="bi27594" base="bi43"/>
+				<RelationalDataItem name="bi30531" base="bi38"/>
+				<RelationalFilterItem name="bi30532">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+					</EditorProperties>
+					<Expression>le(${bi30531,binned},datepart(now()))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi32404" base="bi69"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="multidimensional" name="dd27695">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column"/>
+						<Axis type="row">
+							<BusinessItem ref="bi27594"/>
+						</Axis>
+					</Axes>
+					<ColumnSortItems>
+						<MeasureSortItem ref="bi27594" sortDirection="descending"/>
+					</ColumnSortItems>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd27696"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi30532"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd27699">
+			<BusinessItems>
+				<RelationalDataItem name="bi27608" base="bi45"/>
+				<RelationalDataItem name="bi30537" base="bi38"/>
+				<RelationalFilterItem name="bi30538">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+					</EditorProperties>
+					<Expression>le(${bi30537,binned},datepart(now()))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi32405" base="bi69"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="multidimensional" name="dd27700">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column"/>
+						<Axis type="row">
+							<BusinessItem ref="bi27608"/>
+						</Axis>
+					</Axes>
+					<ColumnSortItems>
+						<MeasureSortItem ref="bi27608" sortDirection="descending"/>
+					</ColumnSortItems>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd27701"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi30538"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd27704">
+			<BusinessItems>
+				<RelationalDataItem name="bi27622" base="bi44"/>
+				<RelationalDataItem name="bi30543" base="bi38"/>
+				<RelationalFilterItem name="bi30544">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+					</EditorProperties>
+					<Expression>le(${bi30543,binned},datepart(now()))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi32406" base="bi69"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="multidimensional" name="dd27705">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column"/>
+						<Axis type="row">
+							<BusinessItem ref="bi27622"/>
+						</Axis>
+					</Axes>
+					<ColumnSortItems>
+						<MeasureSortItem ref="bi27622" sortDirection="descending"/>
+					</ColumnSortItems>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd27706"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi30544"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+		<ParentDataDefinition childQueryRelationship="independent" status="executable" dataSource="ds33" name="dd28642">
+			<BusinessItems>
+				<RelationalDataItem name="bi28647" base="bi70"/>
+				<RelationalDataItem name="bi30549" base="bi38"/>
+				<RelationalFilterItem name="bi30550">
+					<EditorProperties>
+						<Property key="complexity">SINGLE_DATA_ITEM</Property>
+						<Property key="interactiveEditingAllowed">FALSE</Property>
+					</EditorProperties>
+					<Expression>le(${bi30549,binned},datepart(now()))</Expression>
+				</RelationalFilterItem>
+				<RelationalDataItem name="bi32407" base="bi69"/>
+			</BusinessItems>
+			<DataDefinition dataSource="ds33" type="multidimensional" name="dd28643">
+				<MultidimensionalQuery detail="false">
+					<Axes>
+						<Axis type="column"/>
+						<Axis type="row">
+							<BusinessItem ref="bi28647"/>
+						</Axis>
+					</Axes>
+					<ColumnSortItems>
+						<MeasureSortItem ref="bi28647" sortDirection="descending"/>
+					</ColumnSortItems>
+				</MultidimensionalQuery>
+				<ResultDefinitions>
+					<ResultDefinition purpose="primary" name="dd28644"/>
+				</ResultDefinitions>
+			</DataDefinition>
+			<AppliedFilters>
+				<DetailFilters>
+					<BusinessItem ref="bi30550"/>
+				</DetailFilters>
+			</AppliedFilters>
+		</ParentDataDefinition>
+	</DataDefinitions>
+	<DataSources>
+		<DataSource label="WARRANTY_CLAIMS_0117" type="relational" name="ds33">
+			<CasResource server="cas-shared-default" library="Samples" table="WARRANTY_CLAIMS_0117" locale="en_US"/>
+			<BusinessItemFolder>
+				<DataItem name="bi34" xref="claim_attribute_1"/>
+				<DataItem name="bi35" xref="CLAIM_PROCESSED_DT_SK"/>
+				<DataItem name="bi36" xref="CLAIM_REPAIR_END_DT_SK"/>
+				<DataItem name="bi37" xref="CLAIM_REPAIR_START_DT_SK"/>
+				<DataItem name="bi38" xref="CLAIM_SUBMITTED_DT_SK"/>
+				<DataItem name="bi39" xref="customer_attribute_1"/>
+				<DataItem name="bi40" xref="DEFECT_CD"/>
+				<DataItem name="bi41" xref="DEFECT_SK"/>
+				<DataItem name="bi42" xref="x_product_attribute7"/>
+				<DataItem name="bi43" xref="GROSS_CLAIM_AMT" format="DOLLAR13."/>
+				<DataItem name="bi44" xref="GROSS_LABOR_AMT" format="DOLLAR13."/>
+				<DataItem name="bi45" xref="GROSS_MATERIAL_AMT" format="DOLLAR13."/>
+				<DataItem name="bi46" xref="GROSS_OTHER_AMT" format="DOLLAR13."/>
+				<DataItem name="bi47" xref="IN_SERVICE_DT"/>
+				<DataItem name="bi48" xref="service_provider_latitude"/>
+				<DataItem name="bi49" xref="service_provider_longitude"/>
+				<DataItem name="bi50" xref="product_attribute_4"/>
+				<DataItem name="bi51" xref="product_attribute_5"/>
+				<DataItem name="bi52" xref="product_attribute_2"/>
+				<DataItem name="bi53" xref="PRIMARY_LABOR_CD"/>
+				<DataItem name="bi54" xref="primary_labor_desc"/>
+				<DataItem name="bi55" xref="primary_labor_group_desc"/>
+				<DataItem name="bi56" xref="PRIMARY_LABOR_GROUP_CD"/>
+				<DataItem name="bi57" xref="PRIMARY_MATERIAL_ID"/>
+				<DataItem name="bi58" xref="PRIMARY_MATERIAL_GROUP_CD"/>
+				<DataItem name="bi59" xref="PRODUCT_MODEL_CD"/>
+				<DataItem name="bi60" xref="PRODUCTION_DT"/>
+				<DataItem name="bi61" xref="PRODUCT_ID"/>
+				<DataItem name="bi62" xref="srvc_prvdr_attribute_3"/>
+				<DataItem name="bi63" xref="srvc_prvdr_attribute_5"/>
+				<DataItem name="bi64" xref="srvc_prvdr_attribute_1"/>
+				<DataItem name="bi65" xref="srvc_prvdr_attribute_2"/>
+				<DataItem name="bi66" xref="srvc_prvdr_attribute_4"/>
+				<DataItem name="bi67" xref="seller_attribute_5"/>
+				<DataItem name="bi68" xref="SHIP_DT"/>
+				<DataItem name="bi69" xref="SHIP_YEAR_CD"/>
+				<DataItem name="bi70" xref="total_claim_count" format="COMMA13."/>
+				<DataItem name="bi71" xref="product_attribute_3"/>
+				<DataItem name="bi72" xref="USAGE_VALUE"/>
+				<DataItem name="bi73" xref="x_product_attribute9"/>
+				<DataItem name="bi74" xref="product_attribute_1"/>
+				<DataItem name="bi75" xref="WARRANTY_CLAIM_ID"/>
+				<PredefinedDataItem calculation="totalCount" name="bi76" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi77" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+				<DataItem name="bi245" label="In-Service Year" xref="IN_SERVICE_DT" format="YEAR4"/>
+				<DataItem name="bi252" label="Claim Submitted Year" xref="CLAIM_SUBMITTED_DT_SK" format="YEAR4"/>
+				<CalculatedItem dataType="double" name="bi255" label="Year Claim Submitted" usage="quantitative" format="BEST4." aggregation="average">
+					<Expression>typecast(DOUBLE,year(${bi38,binned}))</Expression>
+				</CalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi272" label="Gross Claim Amount (Year over year growth) " format="PERCENT12.2">
+					<Expression>div(minus(parallelPeriod(sum,${bi43,raw},allFiltersApply,${bi252,raw},inferred,year,0,partialToToday),parallelPeriod(sum,${bi43,raw},allFiltersApply,${bi252,raw},inferred,year,-1,partialToToday)),abs(parallelPeriod(sum,${bi43,raw},allFiltersApply,${bi252,raw},inferred,year,-1,partialToToday)))</Expression>
+				</AggregateCalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi273" label="Gross Claim Amount (Year to date growth)" format="PERCENT12.2">
+					<Expression>div(minus(cumulativePeriod(sum,${bi43,raw},allFiltersApply,${bi252,raw},inferred,year,0,partialToToday),cumulativePeriod(sum,${bi43,raw},allFiltersApply,${bi252,raw},inferred,year,-1,partialToToday)),abs(cumulativePeriod(sum,${bi43,raw},allFiltersApply,${bi252,raw},inferred,year,-1,partialToToday)))</Expression>
+				</AggregateCalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi326" label="Gross Claim Amount (Difference from previous period)" format="DOLLAR13.">
+					<Expression>minus(relativePeriod(sum,${bi43,raw},allFiltersApply,${bi407,raw},inferred,0,full),relativePeriod(sum,${bi43,raw},allFiltersApply,${bi407,raw},inferred,-1,full))</Expression>
+				</AggregateCalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi360" label="Gross Claim Amount (Percent difference from previous Year)" format="PERCENT12.2">
+					<Expression>div(minus(relativePeriod(sum,${bi43,raw},allFiltersApply,${bi252,raw},year,0,full),relativePeriod(sum,${bi43,raw},allFiltersApply,${bi252,raw},year,-1,full)),abs(relativePeriod(sum,${bi43,raw},allFiltersApply,${bi252,raw},year,-1,full)))</Expression>
+				</AggregateCalculatedItem>
+				<Hierarchy name="bi385" label="Labor Hierarchy">
+					<Level ref="bi55"/>
+					<Level ref="bi53"/>
+					<Level ref="bi50"/>
+					<Level ref="bi63"/>
+					<Level ref="bi61"/>
+					<Level ref="bi75"/>
+				</Hierarchy>
+				<DataItem name="bi407" label="Ship Month and Year" xref="SHIP_DT" format="MONYY7"/>
+				<DataItem name="bi423" label="Gross Claim Amount (Average)" xref="GROSS_CLAIM_AMT" format="DOLLAR13." aggregation="average"/>
+				<DataItem name="bi424" label="Gross Labor Amount (Average)" xref="GROSS_LABOR_AMT" format="DOLLAR13." aggregation="average"/>
+				<DataItem name="bi425" label="Gross Material Amount (Average)" xref="GROSS_MATERIAL_AMT" format="DOLLAR13." aggregation="average"/>
+				<AggregateCalculatedItem dataType="double" name="bi426" label="Gross Claim Amount Avg ( Difference from previous period)" format="DOLLAR13.">
+					<Expression>minus(relativePeriod(average,${bi423,raw},allFiltersApply,${bi252,raw},inferred,0,full),relativePeriod(average,${bi423,raw},allFiltersApply,${bi252,raw},inferred,-1,full))</Expression>
+				</AggregateCalculatedItem>
+				<DataItem name="bi435" label="Gross Claim Amount (Max)" xref="GROSS_CLAIM_AMT" format="DOLLAR13." aggregation="max"/>
+				<AggregateCalculatedItem dataType="double" name="bi457" label="Gross Claim Amount Avg (Difference from previous period)" format="DOLLAR13.">
+					<Expression>minus(relativePeriod(average,${bi423,raw},allFiltersApply,${bi252,raw},inferred,0,full),relativePeriod(average,${bi423,raw},allFiltersApply,${bi252,raw},inferred,-1,full))</Expression>
+				</AggregateCalculatedItem>
+				<AggregateCalculatedItem dataType="double" name="bi481" label="Gross Claim Amount Avg (Percent difference from previous period)" format="PERCENT12.2">
+					<Expression>div(minus(relativePeriod(average,${bi423,raw},allFiltersApply,${bi252,raw},inferred,0,full),relativePeriod(average,${bi423,raw},allFiltersApply,${bi252,raw},inferred,-1,full)),abs(relativePeriod(average,${bi423,raw},allFiltersApply,${bi252,raw},inferred,-1,full)))</Expression>
+				</AggregateCalculatedItem>
+				<DataItem name="bi820" label="Claim Submitted Month and Year" xref="CLAIM_SUBMITTED_DT_SK" format="MONYY7"/>
+				<AggregateCalculatedItem dataType="double" name="bi2416" label="Gross Claim Amount Average for All" format="COMMA12.2">
+					<Expression>aggregate(average,all,${bi43,raw})</Expression>
+				</AggregateCalculatedItem>
+				<CalculatedItem dataType="double" name="bi2493" label="Dealer Gross Claim Amount" usage="quantitative" format="DOLLAR12." aggregation="average">
+					<Expression>cond(eq(${bi63,binned},#{pr2430}),${bi43,raw},.)</Expression>
+				</CalculatedItem>
+				<DataItem name="bi27124" label="Gross Claim Amount (1)" xref="GROSS_CLAIM_AMT" format="DOLLAR13."/>
+				<AggregateCalculatedItem dataType="double" name="bi27126" label="Gross Claim Amount (1) (Cumulative total) 1" format="DOLLAR13.">
+					<Expression>aggregateCells(sum,${bi27124,raw},default,cellIndex(start,0),cellIndex(current,0))</Expression>
+				</AggregateCalculatedItem>
+			</BusinessItemFolder>
+		</DataSource>
+		<DataSource label="COSTCHANGE" type="relational" name="ds24112">
+			<CasResource server="cas-shared-default" library="Samples" table="COSTCHANGE" locale="en_US"/>
+			<BusinessItemFolder>
+				<DataItem name="bi24113" label="Gross Claim Amount" xref="gross_claim_amt" format="DOLLAR12."/>
+				<DataItem name="bi24114" label="Gross Labor Amount" xref="gross_labor_amt" format="DOLLAR12."/>
+				<DataItem name="bi24115" label="Gross Material Amount" xref="gross_material_amt" format="DOLLAR12."/>
+				<DataItem name="bi24116" label="Previous Year Gross Claim Amount" xref="prev_gross_claim_amt" format="DOLLAR12."/>
+				<DataItem name="bi24117" label="Previous Year Gross Labor Amount" xref="prev_gross_labor_amt" format="DOLLAR12."/>
+				<DataItem name="bi24118" label="Previous Year Gross Material Amount" xref="prev_gross_material_amt" format="DOLLAR12."/>
+				<DataItem name="bi24119" label="Previous Year Total Claim Count" xref="prev_total_claim_count" format="DOLLAR12."/>
+				<DataItem name="bi24120" xref="primarylaborgroup"/>
+				<DataItem name="bi24121" xref="shipyear"/>
+				<DataItem name="bi24122" label="Total Claim Count" xref="total_Claim_Count" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCount" name="bi24123" label="Frequency" usage="quantitative" format="COMMA12."/>
+				<PredefinedDataItem calculation="totalCountPercent" name="bi24124" label="Frequency Percent" usage="quantitative" format="PERCENT20.2"/>
+			</BusinessItemFolder>
+		</DataSource>
+	</DataSources>
+	<VisualElements>
+		<Prompt ref="pr952" name="ve928" label="Make Dropdown" description="This drop down filters the product model and model year filters. It also filters the page by car make. " selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi951">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="specifyHeightSelected">true</Property>
+				<Property key="addedInteractionQueryDataItems">bi32380</Property>
+			</EditorProperties>
+			<ComboBox/>
+		</Prompt>
+		<Prompt ref="pr966" name="ve958" label="Engine Model Dropdown" description="This drop down filters the model year filter. It also filters this page by car model. " selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi965">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="specifyHeightSelected">true</Property>
+				<Property key="addedInteractionQueryDataItems">bi32381</Property>
+			</EditorProperties>
+			<ComboBox/>
+		</Prompt>
+		<Prompt ref="pr977" name="ve971" label="Model Year Dropdown" description="This drop down filters the page by model  year. " selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi976">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="specifyHeightSelected">true</Property>
+				<Property key="addedInteractionQueryDataItems">bi32382</Property>
+			</EditorProperties>
+			<ComboBox/>
+		</Prompt>
+		<VisualContainer containerType="layout" name="ve2310" label="Layout Container 11" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="visualType">LAYOUT_CONTAINER</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<Graph graphType="dualAxisLine" supplementalVisuals="ve2346" resultDefinitions="dd2345" name="ve2342" data="dd2343" label="Claim Amount and Frequency by Month" description="This chart show the Gross Claim Amount (teal line) and the Total Claim Count (orange line) over time. You can filter this chart by labor code description by selecting a description in the Labor Description by Claim Amount word cloud. Notice any trends? If you see an upward trend over time, you should investigate further.  " applyDynamicBrushes="yes" sourceInteractionVariables="bi2347">
+			<EditorProperties>
+				<Property key="addedInteractionQueryDataItems">bi32383,bi32384</Property>
+			</EditorProperties>
+			<Title><P><Span>Claim Amount and Total Count by Month</Span></P></Title>
+<![CDATA[<StatGraph border="false" displayOptionPolicy="union" includeMissingDiscrete="true" missingValueDisplay="autolabel" opaque="false" selectionMode="multiple">
+    <PadAttrs bottom="0px" left="0px" right="0px" top="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar assignedType="any" description="CATEGORY_VAR" name="CATEGORY" required="true" type="character">
+                <DefaultValues>
+                    <Value>dd2345.bi2347</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="any" description="LINE_MEASURE1_VAR" name="RESPONSE" required="true" type="numeric">
+                <DefaultValues>
+                    <Value>dd2345.bi2348</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="any" description="LINE_MEASURE2_VAR" name="RESPONSE2" required="true" type="numeric">
+                <DefaultValues>
+                    <Value>dd2345.bi2349</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar description="HORIZONTAL_SERIES_VAR" multiplesAllowed="true" name="COLUMN" required="false" type="character"/>
+            <DynVar description="VERTICAL_SERIES_VAR" multiplesAllowed="true" name="ROW" required="false" type="character"/>
+            <DynVar description="TIP_VAR" multiplesAllowed="true" name="TIP" required="false" type="any">
+                <DefaultValues>
+                    <Value>dd2345.bi2347</Value>
+                    <Value>dd2345.bi2348</Value>
+                    <Value>dd2345.bi2349</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar description="ANIMATION" multiplesAllowed="false" name="KEY_FRAME" required="false" type="time"/>
+            <DynVar description="HIDDEN_VAR" multiplesAllowed="true" name="HIDDEN" required="false" type="character"/>
+        </DynVars>
+    </Meta>
+    <LayoutDataMatrix columnVars="COLUMN" includeMissingClass="true" rowVars="ROW">
+        <LayoutPrototypeOverlay2D alignVerticalAxisTicks="true" cycleAttrs="true">
+            <LineChart _stmt="linechart" category="CATEGORY" display="NOMARKERS NOFILL" fadeType="auto" name="LineChart1" responseVars="RESPONSE" stat="none" tip="TIP" tipListPolicy="replace"/>
+            <LineChart _stmt="linechart" category="CATEGORY" display="NOMARKERS NOFILL" fadeType="auto" name="LineChart2" responseVars="RESPONSE2" stat="none" tip="TIP" tipListPolicy="replace" yAxis="y2"/>
+            <XAxisOpts name="categoryAxis">
+                <DiscreteOpts sortOrder="data" tickValueAppearance="auto" tickValueFitPolicy="staggertruncatedrop"/>
+                <LabelAttrs size="9pt"/>
+                <TickValueAttrs size="9pt"/>
+            </XAxisOpts>
+            <YAxisOpts>
+                <DiscreteOpts sortOrder="data"/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <LabelAttrs size="9pt"/>
+                <TickValueAttrs size="9pt"/>
+            </YAxisOpts>
+            <Y2AxisOpts display="LABEL TICKVALUES">
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <LabelAttrs size="9pt"/>
+                <TickValueAttrs size="9pt"/>
+            </Y2AxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend allowCollapsed="false" legendTitlePosition="top" visible="off">
+        <AutoLegend>
+            <GraphNames>
+                <Value>LineChart1</Value>
+                <Value>LineChart2</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <Animation keyFrame="KEY_FRAME"/>
+    <OverviewAxis axis="categoryAxis" maxPlotSize="60px" minPlotSize="35px" visible="off"/>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd2345" name="ve2346" data="dd2343" applyDynamicBrushes="yes" sourceInteractionVariables="bi2347">
+			<Columns>
+				<Column variable="bi2347" isVisible="true"/>
+				<Column variable="bi2348" isVisible="true"/>
+				<Column variable="bi2349" isVisible="true"/>
+			</Columns>
+		</Table>
+		<Text name="ve3430" label="Labor Group Analysis and Forecast Spacer" description="This text box contains a link to more information about this page." selectionDisabled="true" applyDynamicBrushes="no">
+			<P class="paragraph7"><Span class="span20"><Span><Span><Span action="ac27440">More Information</Span></Span></Span></Span></P>
+		</Text>
+		<Graph graphType="pie" supplementalVisuals="ve3463" resultDefinitions="dd3462" name="ve3459" data="dd3460" label="Primary Labor Group Pie Chart" description="This pie chart shows the percent breakdown of the number of claims for each primary labor group for all ship years. Notice that the highest number of warranty claims comes from Chassis and Transmission labor groups.  The Transmission claims may not make up the most of the warranty expenses cost-wise but they do affect quite a few customers. This could lead to dissatisfied customers and a drop in customer loyalty." applyDynamicBrushes="yes" sourceInteractionVariables="bi3464">
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.oneByTwo.fmt.txt"><Substitutions><Substitution valueType="label" variables="bi70"/><Substitution valueType="label" variables="bi55"/></Substitutions></DynamicSpan></P></Title>
+<![CDATA[<StatGraph border="false" displayOptionPolicy="union" includeMissingDiscrete="true" missingValueDisplay="autolabel" opaque="false" selectionMode="multiple">
+    <PadAttrs bottom="0px" left="0px" right="0px" top="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar assignedType="any" description="CATEGORY_VAR" name="CATEGORY" required="true" type="character">
+                <DefaultValues>
+                    <Value>dd3462.bi3464</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="any" description="MEASURE_VAR" multiplesAllowed="true" name="RESPONSE" required="true" type="numeric">
+                <DefaultValues>
+                    <Value>dd3462.bi3466</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar description="SUBGROUP_VAR" name="GROUP" required="false" type="character"/>
+            <DynVar description="HORIZONTAL_SERIES_VAR" multiplesAllowed="true" name="COLUMN" required="false" type="character"/>
+            <DynVar description="VERTICAL_SERIES_VAR" multiplesAllowed="true" name="ROW" required="false" type="character"/>
+            <DynVar assignedType="numeric" description="TIP_VAR" multiplesAllowed="true" name="TIP" required="false" type="any">
+                <DefaultValues>
+                    <Value>dd3462.bi3464</Value>
+                    <Value>dd3462.bi3466</Value>
+                    <Value>dd3462.bi29475</Value>
+                    <Value>dd3462.bi29476</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar description="ANIMATION" multiplesAllowed="false" name="KEY_FRAME" required="false" type="time"/>
+            <DynVar description="HIDDEN_VAR" multiplesAllowed="true" name="HIDDEN" required="false" type="character"/>
+        </DynVars>
+    </Meta>
+    <LayoutDataMatrix columnVars="COLUMN" includeMissingClass="true" rowVars="ROW">
+        <LayoutPrototypeRegion>
+            <PieChart _stmt="piechart" category="CATEGORY" categoryOrder="data" dataLabelContent="PERCENT" dataLabelLocation="callout" display="NOPIEHEADER" group="GROUP" includeMissingGroup="true" name="PieChart" responseVars="RESPONSE" stat="none" tip="TIP" tipListPolicy="replace"/>
+        </LayoutPrototypeRegion>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend hAlign="left" legendTitlePosition="top" position="bottom" vAlign="bottom">
+        <AutoLegend>
+            <GraphNames>
+                <Value>PieChart</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <Animation keyFrame="KEY_FRAME"/>
+</StatGraph>]]>
+		</Graph>
+		<Graph graphType="forecast" supplementalVisuals="ve32200 ve32201 ve32414" resultDefinitions="dd3528 dd3549 dd3550" name="ve3525" data="dd3526" label="Gross Labor Amount" description="This chart shows the forecast of Gross Labor Amount. Use the pie chart to filter the forecast by primary labor group. This forecast was created quickly and easily. In addition, the software automatically choose the best model for this metric. Maximize the chart. Results are located at the bottom of the Forecast image.  Select Dependent Variables Results and you will see that the software chose a Seasonal Exponential Smoothing algorithm to create the forecasts for the Gross Labor Amount." applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="timeSeriesBinOption">formatBin</Property>
+				<Property key="timeSeriesFixedBinCardinality">300</Property>
+				<Property key="addedInteractionQueryDataItems">bi32385</Property>
+			</EditorProperties>
+			<Title><P><Span>Gross Labor Amount Forecast</Span></P></Title>
+<![CDATA[<StatGraph border="false" includeMissingDiscrete="true" missingValueDisplay="autolabel" opaque="false" selectionMode="multiple">
+    <PadAttrs bottom="0px" left="0px" right="0px" top="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar assignedType="any" description="TIME_VAR" name="TIME" required="true" type="time">
+                <DefaultValues>
+                    <Value>dd3528.bi3538</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="any" description="RESPONSE_VAR" multiplesAllowed="true" name="RESPONSE" required="true" type="numeric">
+                <DefaultValues>
+                    <Value>dd3528.bi3543</Value>
+                </DefaultValues>
+            </DynVar>
+        </DynVars>
+        <DataNameMap>
+            <Entry data="dd3528" model="LayoutDataMatrix_48"/>
+            <Entry data="dd3549" model="ReferenceLine_13"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix name="LayoutDataMatrix_48">
+        <LayoutPrototypeOverlay2D>
+            <ReferenceLine lineAttrs="Reference" name="ReferenceLine_13" x="dd3549#bi3535">
+                <LineAttrs/>
+            </ReferenceLine>
+            <BandPlot dataTransparency="0.660000026" fillAttrs="GraphDataStyle1" limitLower="dd3528#bi3545" limitUpper="dd3528#bi3544" name="BandPlot_13" x="dd3528#bi3538">
+                <FillAttrs/>
+            </BandPlot>
+            <TimeSeriesPlot _stmt="timeseriesplot" break="true" display="MARKERS" fadeType="auto" lineAttrs="GraphDataStyle1" markerAttrs="GraphDataStyle1" name="MeasureTimeSeriesPlot_ACTUAL" primary="false" time="TIME" tipListPolicy="replace" vertexLabel="false" visible="true">
+                <ResponseVars>
+                    <Value>dd3528#bi23576</Value>
+                </ResponseVars>
+                <LineAttrs thickness="1px"/>
+                <MarkerAttrs size="11px"/>
+            </TimeSeriesPlot>
+            <TimeSeriesPlot _stmt="timeseriesplot" break="true" display="LINE" fadeType="auto" lineAttrs="GraphDataStyle1" name="MeasureTimeSeriesPlot_MODEL" primary="false" time="TIME" tipListPolicy="replace" vertexLabel="false" vertexLabelAttrs="GraphDataStyle1" visible="true">
+                <ResponseVars>
+                    <Value>dd3528#bi3543</Value>
+                </ResponseVars>
+                <LineAttrs thickness="1px"/>
+                <MarkerAttrs size="11px"/>
+            </TimeSeriesPlot>
+            <TimeSeriesPlot _stmt="timeseriesplot" break="true" display="LINE" fadeType="auto" lineAttrs="GraphDataStyle1" name="MeasureTimeSeriesPlot_FORECAST" primary="true" time="TIME" tipListPolicy="replace" vertexLabel="false" vertexLabelAttrs="GraphDataStyle1" visible="false">
+                <ResponseVars>
+                    <Value>dd3528#bi23577</Value>
+                </ResponseVars>
+                <LineAttrs thickness="1px"/>
+                <MarkerAttrs size="11px"/>
+            </TimeSeriesPlot>
+            <XAxisOpts display="TICKVALUES" gridDisplay="on" name="AxisOptions_830" reverse="false">
+                <DiscreteOpts tickValueAppearance="auto"/>
+                <LinearOpts>
+                    <TickValueFormatOpts/>
+                </LinearOpts>
+                <TimeOpts splitTickValue="false" tickValueFormat="DATA"/>
+                <TickValueAttrs size="9pt"/>
+            </XAxisOpts>
+            <YAxisOpts display="TICKVALUES" gridDisplay="on" label="Gross Labor Amount" reverse="false">
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TickValueAttrs size="9pt"/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend hAlign="right" legendTitlePosition="top" position="top" vAlign="top">
+        <AutoLegend>
+            <GraphNames>
+                <Value>MeasureTimeSeriesPlot_MODEL</Value>
+                <Value>MeasureTimeSeriesPlot_ACTUAL</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <DataSymbols>
+        <Value>CIRCLE</Value>
+        <Value>SQUARE</Value>
+        <Value>TRIANGLE</Value>
+        <Value>DIAMOND</Value>
+        <Value>STAR</Value>
+        <Value>TRIANGLEDOWN</Value>
+        <Value>HOMEDOWN</Value>
+    </DataSymbols>
+    <OverviewAxis axis="AxisOptions_830" maxPlotSize="60px" minPlotSize="35px" visible="auto"/>
+</StatGraph>]]>
+		</Graph>
+		<VisualContainer containerType="stacking" name="ve3569" label="Forecast Container" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="specifyWidthSelected">true</Property>
+			</EditorProperties>
+			<StackNavigationControl horizontalPosition="center" verticalPosition="bottom" buttonType="button"/>
+		</VisualContainer>
+		<Graph graphType="forecast" supplementalVisuals="ve32195 ve32196 ve32418" resultDefinitions="dd3578 dd3813 dd3814" name="ve3575" data="dd3576" label="Gross Material Amount" description="This chart shows the forecast of Gross Material Costs. Use the pie chart to filter the forecast by primary labor group. This forecast was created quickly and easily. In addition, the software automatically choose the best model for this metric. Maximize the chart. Results are located at the bottom of the Forecast image.  Select Dependent Variables Results and you will see that the software chose a Seasonal Exponential Smoothing algorithm to create the forecasts for the Gross Material Amount." applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="timeSeriesBinOption">formatBin</Property>
+				<Property key="timeSeriesFixedBinCardinality">300</Property>
+				<Property key="addedInteractionQueryDataItems">bi32386</Property>
+			</EditorProperties>
+			<Title auto="false"><P><Span>Gross Material Amount Forecast</Span></P></Title>
+<![CDATA[<StatGraph border="false" includeMissingDiscrete="true" missingValueDisplay="autolabel" opaque="false" selectionMode="multiple">
+    <PadAttrs bottom="0px" left="0px" right="0px" top="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar assignedType="any" description="TIME_VAR" name="TIME" required="true" type="time">
+                <DefaultValues>
+                    <Value>dd3578.bi3800</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="any" description="RESPONSE_VAR" multiplesAllowed="true" name="RESPONSE" required="true" type="numeric">
+                <DefaultValues>
+                    <Value>dd3578.bi3805</Value>
+                </DefaultValues>
+            </DynVar>
+        </DynVars>
+        <DataNameMap>
+            <Entry data="dd3578" model="LayoutDataMatrix_19"/>
+            <Entry data="dd3813" model="ReferenceLine_8"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix name="LayoutDataMatrix_19">
+        <LayoutPrototypeOverlay2D>
+            <ReferenceLine lineAttrs="Reference" name="ReferenceLine_8" x="dd3813#bi3796">
+                <LineAttrs/>
+            </ReferenceLine>
+            <BandPlot dataTransparency="0.660000026" fillAttrs="GraphDataStyle1" limitLower="dd3578#bi3807" limitUpper="dd3578#bi3806" name="BandPlot_8" x="dd3578#bi3800">
+                <FillAttrs/>
+            </BandPlot>
+            <TimeSeriesPlot _stmt="timeseriesplot" break="true" display="MARKERS" fadeType="auto" lineAttrs="GraphDataStyle1" markerAttrs="GraphDataStyle1" name="MeasureTimeSeriesPlot_ACTUAL" primary="false" time="TIME" tipListPolicy="replace" vertexLabel="false" visible="true">
+                <ResponseVars>
+                    <Value>dd3578#bi23581</Value>
+                </ResponseVars>
+                <LineAttrs thickness="1px"/>
+                <MarkerAttrs size="11px"/>
+            </TimeSeriesPlot>
+            <TimeSeriesPlot _stmt="timeseriesplot" break="true" display="LINE" fadeType="auto" lineAttrs="GraphDataStyle1" name="MeasureTimeSeriesPlot_MODEL" primary="false" time="TIME" tipListPolicy="replace" vertexLabel="false" vertexLabelAttrs="GraphDataStyle1" visible="true">
+                <ResponseVars>
+                    <Value>dd3578#bi3805</Value>
+                </ResponseVars>
+                <LineAttrs thickness="1px"/>
+                <MarkerAttrs size="11px"/>
+            </TimeSeriesPlot>
+            <TimeSeriesPlot _stmt="timeseriesplot" break="true" display="LINE" fadeType="auto" lineAttrs="GraphDataStyle1" name="MeasureTimeSeriesPlot_FORECAST" primary="true" time="TIME" tipListPolicy="replace" vertexLabel="false" vertexLabelAttrs="GraphDataStyle1" visible="false">
+                <ResponseVars>
+                    <Value>dd3578#bi23582</Value>
+                </ResponseVars>
+                <LineAttrs thickness="1px"/>
+                <MarkerAttrs size="11px"/>
+            </TimeSeriesPlot>
+            <XAxisOpts display="TICKVALUES" gridDisplay="on" name="AxisOptions_426" reverse="false">
+                <DiscreteOpts tickValueAppearance="auto"/>
+                <LinearOpts>
+                    <TickValueFormatOpts/>
+                </LinearOpts>
+                <TimeOpts splitTickValue="false" tickValueFormat="DATA"/>
+                <TickValueAttrs size="9pt"/>
+            </XAxisOpts>
+            <YAxisOpts display="LABEL TICKVALUES" gridDisplay="on" label="Gross Material Amount" reverse="false">
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <LabelAttrs size="9pt"/>
+                <TickValueAttrs size="9pt"/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend hAlign="center" legendTitlePosition="top" position="top" vAlign="top">
+        <AutoLegend>
+            <GraphNames>
+                <Value>MeasureTimeSeriesPlot_MODEL</Value>
+                <Value>MeasureTimeSeriesPlot_ACTUAL</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <DataSymbols>
+        <Value>CIRCLE</Value>
+        <Value>SQUARE</Value>
+        <Value>TRIANGLE</Value>
+        <Value>DIAMOND</Value>
+        <Value>STAR</Value>
+        <Value>TRIANGLEDOWN</Value>
+        <Value>HOMEDOWN</Value>
+    </DataSymbols>
+    <OverviewAxis axis="AxisOptions_426" maxPlotSize="60px" minPlotSize="35px" visible="auto"/>
+</StatGraph>]]>
+		</Graph>
+		<Graph graphType="forecast" supplementalVisuals="ve32190 ve32191 ve32422" resultDefinitions="dd3947 dd3966 dd3967" name="ve3944" data="dd3945" label="Total Claim Count" description="This chart shows the forecast of Total Claim Count. Use the pie chart to filter the forecast by primary labor group. This forecast was created quickly and easily. In addition, the software automatically choose the best model for this metric. Maximize the chart. Results are located at the bottom of the Forecast image.  Select Dependent Variables Results and you will see that the software chose a Winters Method (Multiplicative) algorithm to create the forecast for the Total Claim Count." applyDynamicBrushes="yes">
+			<EditorProperties>
+				<Property key="timeSeriesBinOption">formatBin</Property>
+				<Property key="timeSeriesFixedBinCardinality">300</Property>
+			</EditorProperties>
+			<Title auto="true"><P><DynamicSpan key="bird.autotitle.template.oneByTwo.fmt.txt"><Substitutions><Substitution valueType="label" variables="bi70"/><Substitution valueType="label" variables="bi35"/></Substitutions></DynamicSpan></P></Title>
+<![CDATA[<StatGraph border="false" includeMissingDiscrete="true" missingValueDisplay="autolabel" opaque="false" selectionMode="multiple">
+    <PadAttrs bottom="0px" left="0px" right="0px" top="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar assignedType="any" description="TIME_VAR" name="TIME" required="true" type="time">
+                <DefaultValues>
+                    <Value>dd3947.bi3957</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="any" description="RESPONSE_VAR" multiplesAllowed="true" name="RESPONSE" required="true" type="numeric">
+                <DefaultValues>
+                    <Value>dd3947.bi3962</Value>
+                </DefaultValues>
+            </DynVar>
+        </DynVars>
+        <DataNameMap>
+            <Entry data="dd3947" model="LayoutDataMatrix_20"/>
+            <Entry data="dd3966" model="ReferenceLine_3"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix includeMissingClass="true" name="LayoutDataMatrix_20">
+        <LayoutPrototypeOverlay2D>
+            <ReferenceLine lineAttrs="Reference" name="ReferenceLine_3" x="dd3966#bi3954">
+                <LineAttrs/>
+            </ReferenceLine>
+            <BandPlot dataTransparency="0.660000026" fillAttrs="GraphDataStyle1" limitLower="dd3947#bi3964" limitUpper="dd3947#bi3963" name="BandPlot_3" x="dd3947#bi3957">
+                <FillAttrs/>
+            </BandPlot>
+            <TimeSeriesPlot _stmt="timeseriesplot" break="true" display="MARKERS" fadeType="auto" lineAttrs="GraphDataStyle1" markerAttrs="GraphDataStyle1" name="MeasureTimeSeriesPlot_ACTUAL" primary="false" time="TIME" tipListPolicy="replace" vertexLabel="false" visible="true">
+                <ResponseVars>
+                    <Value>dd3947#bi23586</Value>
+                </ResponseVars>
+                <LineAttrs thickness="1px"/>
+                <MarkerAttrs size="11px"/>
+            </TimeSeriesPlot>
+            <TimeSeriesPlot _stmt="timeseriesplot" break="true" display="LINE" fadeType="auto" lineAttrs="GraphDataStyle1" name="MeasureTimeSeriesPlot_MODEL" primary="false" time="TIME" tipListPolicy="replace" vertexLabel="false" vertexLabelAttrs="GraphDataStyle1" visible="true">
+                <ResponseVars>
+                    <Value>dd3947#bi3962</Value>
+                </ResponseVars>
+                <LineAttrs thickness="1px"/>
+                <MarkerAttrs size="11px"/>
+            </TimeSeriesPlot>
+            <TimeSeriesPlot _stmt="timeseriesplot" break="true" display="LINE" fadeType="auto" lineAttrs="GraphDataStyle1" name="MeasureTimeSeriesPlot_FORECAST" primary="true" time="TIME" tipListPolicy="replace" vertexLabel="false" vertexLabelAttrs="GraphDataStyle1" visible="false">
+                <ResponseVars>
+                    <Value>dd3947#bi23587</Value>
+                </ResponseVars>
+                <LineAttrs thickness="1px"/>
+                <MarkerAttrs size="11px"/>
+            </TimeSeriesPlot>
+            <XAxisOpts display="TICKVALUES" name="categoryAxis">
+                <DiscreteOpts tickValueAppearance="auto"/>
+                <TimeOpts splitTickValue="false" tickValueFormat="DATA"/>
+                <TickValueAttrs size="9pt"/>
+            </XAxisOpts>
+            <YAxisOpts display="TICKVALUES" gridDisplay="on" label="Total Claim Count" reverse="false">
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TickValueAttrs size="9pt"/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend hAlign="right" legendTitlePosition="top" position="top" vAlign="top">
+        <AutoLegend>
+            <GraphNames>
+                <Value>MeasureTimeSeriesPlot_MODEL</Value>
+                <Value>MeasureTimeSeriesPlot_ACTUAL</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <DataSymbols>
+        <Value>CIRCLE</Value>
+        <Value>SQUARE</Value>
+        <Value>TRIANGLE</Value>
+        <Value>DIAMOND</Value>
+        <Value>STAR</Value>
+        <Value>TRIANGLEDOWN</Value>
+        <Value>HOMEDOWN</Value>
+    </DataSymbols>
+    <OverviewAxis axis="categoryAxis" maxPlotSize="60px" minPlotSize="35px" visible="auto"/>
+</StatGraph>]]>
+		</Graph>
+		<Text name="ve8898" label="Cost Overview Information Text" description="Text box containing information about the Cost Overview page." selectionDisabled="true" applyDynamicBrushes="no">
+			<P><Span class="span26"><Span class="span28">Cost Overview</Span></Span></P>
+			<P><Span> </Span></P>
+			<P><Span class="span32">This section shows annual trends in warranty costs. Where do you see the biggest issues?</Span></P>
+			<P><Span class="span35"> </Span></P>
+			<P><Span class="span36">The button bar allows you to filter the report by ship year. </Span></P>
+			<P><Span> </Span></P>
+			<P><Span class="span37">The key value metrics provide a quick view of warranty costs for the specified ship year. </Span></P>
+			<P><Span class="span38"> </Span></P>
+			<P><Span class="span39"><Span class="span40">Costs by Primary Labor Group:</Span><Span> This bar chart compares the different costs for each Primary Labor Group. Drill down into Primary Labor Codes. Does one Primary Labor Code stand out more than the others? This chart is also linked to Cost Details which provides detailed information on total and average costs. The sparkline shows you how the total warranty costs have changed over time.  Which model(s) have the most expense? </Span></Span></P>
+			<P><Span class="span41"> </Span></P>
+			<P><Span class="span42"><Span class="span52">Total Warranty Cost Change from Previous Year: </Span><Span>This bubble plot shows how the labor costs (x-axis), material costs (y-axis) and the total warranty costs (size of the bubble) have changed from the previous year. </Span></Span></P>
+		</Text>
+		<Text name="ve11305" label="Detailed Cost Analysis More Information" description="This text box provides information about the Detailed Cost Analysis page." selectionDisabled="true" applyDynamicBrushes="no">
+			<P><Span class="span19"><Span class="span46">Detailed Cost Analysis</Span></Span></P>
+			<P><Span> </Span></P>
+			<P><Span><Span>This section offers a more granular view by car make, model and model year. Select </Span><Span class="span47">Prompts</Span><Span> to open the prompt container.  Notice how the charts change as you modify the filters for make, model and model year. </Span></Span></P>
+			<P><Span> </Span></P>
+			<P><Span>The button bar filters the charts by ship year. </Span></P>
+			<P><Span> </Span></P>
+			<P><Span class="span48">Labor and Material Costs by Labor Code:</Span><Span> This chart breaks out Labor Costs (color) vs Material Costs (size) by Labor Group. Drill into any Primary Labor Description to see details about Primary Labor Codes. This chart also filters the step plot.  To see details about any of these labor codes use the page link to Detailed Cost Analysis by Product Unit IDs.  </Span></P>
+			<P><Span> </Span></P>
+			<P><Span class="span49">Costs by Claim Submitted Date: </Span><Span>This step plot shows how the Gross Claim Amount is trending over time based on claim submitted date.  </Span></P>
+			<P><Span> </Span></P>
+			<P><Span>Use the page link to Detailed Cost Analysis by Product Unit IDs in the Labor and Material Costs by Labor Code treemap</Span><Span>.  Enter a number for the Number of Product Unit Id&apos;s to return in the table.  This table provides additional details such as the actual VIN and where it was manufactured.</Span></P>
+			<P><Span> </Span></P>
+			<P><Span><Span>Now select Prompts and use the drop down menus to filter the report. The first filter, Make, filters the report and the other two dropdown menus. The next filter, Product Model, filters the report and the Model Year menu beside it. The Model Year dropdown will also filter the report. You can use these filters individually or together.  Choose </Span><Span class="span50">Zeus</Span><Span> as the make and </Span><Span class="span53">Galacto</Span><Span> as the product model. Drill down on </Span><Span class="span55">Transmission</Span><Span>, and select </Span><Span class="span56">D-003</Span><Span>. Notice that the step chart has a rapid increase in Labor costs. From </Span><Span class="span57">D-003</Span><Span> in the treemap select the Page Link to Detailed Cost Analysis by Product Unit IDs.  Enter 5 in the box.  Notice the one really high labor cost and the part that was replaced.  We may need to investigate this further to see if better training or additional tools might prevent the high labor cost. </Span></Span></P>
+		</Text>
+		<Text name="ve13609" label="Labor Group Analysis Information Text" description="This text box contains information about the Labor Group Analysis and Forecast page." selectionDisabled="true" applyDynamicBrushes="no">
+			<P><Span class="span33"><Span class="span51">Labor Group Analysis and Forecast</Span></Span></P>
+			<P><Span> </Span></P>
+			<P><Span>This section provides a snapshot of total claims by Labor Group and cost forecasts. The forecast helps project future expenditures, which makes planning more accurate.</Span></P>
+			<P><Span> </Span></P>
+			<P><Span class="span58">Total Claim Count by Primary Labor Group (all years): </Span><Span>This pie chart shows the percent breakdown of the number of claims for each primary labor group for all years. Notice that the highest number of warranty claims comes from Chasis and Transmission labor groups.  The Transmission claims may not make up the majority of warranty expenses cost-wise but they do affect quite a few customers. This could lead to dissatisfied customers and a drop in customer loyalty.</Span></P>
+			<P><Span> </Span></P>
+			<P><Span class="span59">Forecasts: </Span><Span><Span>There are three different forecast charts for each primary labor group. Use the pie chart to filter the forecasts by primary labor group. Use the buttons at the bottom of the section to move between the forecasts for Total Claim Count, Gross Material Amount and Gross Labor Amount. These forecasts were created quickly and easily. In addition, the software automatically chooses the best model for each metric. Select the maximize button located in the top right corner. Results at located at the bottom of the Forecast image.  Select </Span><Span class="span60">Dependent Variables Results</Span><Span> and you will see that the software chose a Seasonal Exponential Smoothing algorithm to create the forecasts for the Gross Material Amount and Gross Labor Amount. However, for the Total Claim Amount, the Winter&apos;s Method (multiplicative) algorithm was found to be a better fit.</Span></Span></P>
+		</Text>
+		<Graph graphType="wordCloud" supplementalVisuals="ve18568" resultDefinitions="dd18567" name="ve18564" data="dd18565" label="Labor Description by Claim Amount" description="This word cloud shows the Gross Claim Amount (size of font) and Total Claim Count (color) for the top Labor Code descriptions. Select a description and note how all the other charts change based on your selection. Do you notice any trends over time?" applyDynamicBrushes="yes" sourceInteractionVariables="bi18569">
+			<EditorProperties>
+				<Property key="specifyWidthSelected">true</Property>
+				<Property key="addedInteractionQueryDataItems">bi32387</Property>
+			</EditorProperties>
+			<Title><P><Span>Labor Description by Claim Amount</Span></P></Title>
+<![CDATA[<StatGraph border="false" includeMissingDiscrete="true" missingValueDisplay="autolabel" opaque="false" selectionMode="multiple">
+    <PadAttrs bottom="0px" left="0px" right="0px" top="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar assignedType="any" description="WORD_VAR" name="WORD" required="true" type="character">
+                <DefaultValues>
+                    <Value>dd18567.bi18569</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="any" description="SIZE_VAR" name="SIZE" required="true" type="numeric">
+                <DefaultValues>
+                    <Value>dd18567.bi18571</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="any" description="COLOR_VAR" name="COLOR" required="false" type="numeric">
+                <DefaultValues>
+                    <Value>dd18567.bi18572</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="numeric" description="TIP_VAR" multiplesAllowed="true" name="TIP" required="false" type="any"><DefaultValues>
+                    <Value>dd18567.bi18569</Value>
+                    <Value>dd18567.bi18571</Value>
+                    <Value>dd18567.bi18572</Value></DefaultValues></DynVar>
+            <DynVar description="HIDDEN_VAR" multiplesAllowed="true" name="HIDDEN" required="false" type="character"/>
+        </DynVars>
+    </Meta>
+    <LayoutRegion>
+        <WordCloud _stmt="wordCloud" arrangement="cloud" category="WORD" colorModel="TwoColorAltRamp" colorResponse="COLOR" fontSizeFactor="4" maxTerms="100" name="WordCloud" size="SIZE"/>
+    </LayoutRegion>
+    <LayoutGlobalLegend allowCollapsed="false" legendTitlePosition="top" visible="off">
+        <SizeLegend border="false" extractScale="true" opaque="false" title="AUTO" title_type="KEYWORD">
+            <GraphNames>
+                <Value>WordCloud</Value>
+            </GraphNames>
+        </SizeLegend>
+        <ContinuousLegend border="false" displayMissing="automatic" extractScale="true" opaque="false" title="AUTO" title_type="KEYWORD">
+            <GraphNames>
+                <Value>WordCloud</Value>
+            </GraphNames>
+        </ContinuousLegend>
+    </LayoutGlobalLegend>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd18567" name="ve18568" data="dd18565" applyDynamicBrushes="yes" sourceInteractionVariables="bi18569">
+			<Columns>
+				<Column variable="bi18569" isVisible="true"/>
+				<Column variable="bi18571" isVisible="true"/>
+				<Column variable="bi18572" isVisible="true"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd753 dd24470" name="ve750" data="dd751" label="Cost Details" description="This table provides cost details for a given ship year.  Notice the sparkline which shows the change in Gross Claim Amount over time." applyDynamicBrushes="yes" sourceInteractionVariables="bi754 bi757 bi758">
+			<EditorProperties>
+				<Property key="addedInteractionQueryDataItems">bi32388,bi32389</Property>
+			</EditorProperties>
+			<Title><P><Span>Top Labor Code List</Span></P></Title>
+			<Conditions>
+				<Condition ref="rg25822">
+					<ConditionParameters>
+						<ConditionParameter parameter="bi754"/>
+					</ConditionParameters>
+				</Condition>
+			</Conditions>
+			<Summary position="after">
+				<Total rowVisible="true"/>
+			</Summary>
+			<Columns>
+				<Column class="tableColumnbi754" variable="bi754" isVisible="true"/>
+				<Column class="tableColumnbi757" variable="bi757" isVisible="true"/>
+				<Column class="tableColumnbi758" variable="bi758" isVisible="true"/>
+				<Column class="tableColumnbi24531" variable="bi24531" isVisible="true"/>
+				<Column class="tableColumncv24467" isVisible="true">
+					<Label position="top" colSpan="0" rowSpan="0">Sparkline for Gross Claim Amount</Label>
+					<Cell>                                            
+						<CellVisuals nestedElementPosition="replace">
+							<SparkLine baseline="0.0" category="bi24471" response="bi759" resultDefinitions="dd24470" name="cv24467">
+								<DataMappings>
+									<DataMapping sourceData="dd753" sourceVariable="bi754" targetData="dd24470" targetVariable="bi754"/>
+									<DataMapping sourceData="dd753" sourceVariable="bi757" targetData="dd24470" targetVariable="bi757"/>
+									<DataMapping sourceData="dd753" sourceVariable="bi758" targetData="dd24470" targetVariable="bi758"/>
+								</DataMappings>
+							</SparkLine>
+						</CellVisuals>
+					</Cell>
+				</Column>
+				<Column class="tableColumnbi759" variable="bi759" isVisible="true"/>
+				<Column class="tableColumnbi24532" variable="bi24532" isVisible="true"/>
+				<Column class="tableColumnbi760" variable="bi760" isVisible="true"/>
+				<Column class="tableColumnbi24533" variable="bi24533" isVisible="true"/>
+				<Column class="tableColumnbi761" variable="bi761" isVisible="true"/>
+				<Column class="tableColumnbi24534" variable="bi24534" isVisible="true"/>
+				<Column class="tableColumnbi762" variable="bi762" isVisible="true"/>
+			</Columns>
+		</Table>
+		<Text name="ve24528" label="Cost Details Text" description="Text box with dynamic text to show which ship year the cost details are filtered by. " selectionDisabled="true" applyDynamicBrushes="no">
+			<P class="paragraph8"><Span class="span23"><Span class="span24"><Span>Detailed Costs for Ship Year: </Span><Span class="span25"><DynamicSpan variable="pr92"></DynamicSpan></Span></Span></Span></P>
+		</Text>
+		<Text name="ve24873" label="Detailed Cost Analysis Text Box" description="This text box uses dynamic text to show which car make, model and model year the report is filtered by.  It also contains a link to more information about this page." selectionDisabled="true" applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="specifyWidthSelected">true</Property>
+			</EditorProperties>
+			<P class="paragraph5"><Span class="span3"><Span class="span4"><Span class="span8">Detailed Cost Analysis for </Span></Span><Span>Make:  </Span><Span class="span9"><DynamicSpan variable="pr952"></DynamicSpan></Span><Span> , Model: </Span><Span class="span10"><DynamicSpan variable="pr966"></DynamicSpan></Span><Span> , Model Year: </Span><Span class="span12"><DynamicSpan variable="pr977"></DynamicSpan></Span><Span>   -   </Span><Span><Span><Span action="ac27429">More information</Span></Span></Span></Span></P>
+		</Text>
+		<VisualPromptContainer buttonText="Prompts" containerType="prompt" name="ve24878" label="Prompt Container" description="This prompt contain holds three filters."/>
+		<Graph graphType="dot" supplementalVisuals="ve25244" resultDefinitions="dd25242" name="ve2325" data="dd25240" label="Gross Material and Labor Amounts by Dealer" description="This dot plot shows the Gross Labor Costs by repairing dealer. This chart is filtered by labor code description when a description is selected in the Labor Description by Claim Amount chart. Notice any outliers? Select an outlier to find the dealer ID whose labor costs are above the norm.  " applyDynamicBrushes="yes" sourceInteractionVariables="bi2333">
+			<EditorProperties>
+				<Property key="addedInteractionQueryDataItems">bi32390,bi32391</Property>
+			</EditorProperties>
+			<Title auto="false"><P><Span>Gross Labor Amount by Repairing Dealer</Span></P></Title>
+<![CDATA[<StatGraph opaque="false" includeMissingDiscrete="true" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="X" description="X_VAR" required="true" assignedType="any" type="character" multiplesAllowed="false">
+                <DefaultValues>
+                    <Value>dd25242.bi2333</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="Y" description="Y_VAR" required="true" assignedType="any" type="numeric" multiplesAllowed="false">
+                <DefaultValues>
+                    <Value>dd25242.bi2330</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="COLUMN" description="HORIZONTAL_SERIES_VAR" required="false" type="character" multiplesAllowed="true"/>
+            <DynVar name="ROW" description="VERTICAL_SERIES_VAR" required="false" type="character" multiplesAllowed="true"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="character" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd25242.bi2330</Value>
+                    <Value>dd25242.bi2333</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+    </Meta>
+    <LayoutDataMatrix includeMissingClass="true" rowVars="ROW" columnVars="COLUMN">
+        <LayoutPrototypeOverlay2D>
+            <ScatterPlot name="ScatterPlot_2" dataTransparency="0" tipListPolicy="replace" _stmt="scatterplot" tip="TIP" x="X" y="Y" animationID="X">
+                <MarkerAttrs size="6px"/>
+            </ScatterPlot>
+            <XAxisOpts name="categoryAxis" type="discrete" display="TICKVALUES" gridDisplay="off">
+                <DiscreteOpts tickValueFitPolicy="staggertruncatedrop" sortOrder="data" tickValueAppearance="auto"/>
+            </XAxisOpts>
+            <YAxisOpts display="TICKVALUES" gridDisplay="off">
+                <DiscreteOpts sortOrder="data"/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TickValueAttrs size="9pt"/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="categoryAxis"/>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd25242" name="ve25244" data="dd25240" applyDynamicBrushes="yes" sourceInteractionVariables="bi2333">
+			<Columns>
+				<Column variable="bi2333"/>
+				<Column variable="bi2330"/>
+			</Columns>
+		</Table>
+		<Text name="ve25373" label="Labor Details Text Box" description="This text box contains a link to information about this page." selectionDisabled="true" applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="specifyWidthSelected">true</Property>
+			</EditorProperties>
+			<P class="paragraph6"><Span class="span13"><Span><Span><Span action="ac27437">More information</Span></Span></Span></Span></P>
+		</Text>
+		<VisualContainer containerType="layout" name="ve25680" label="Layout Container 12" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="visualType">LAYOUT_CONTAINER</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<Prompt ref="pr1123" name="ve27045" label="Top Count" description="This is a text input filter that is used to determine the number of product unit ids to display in the table below." selectionDisabled="true" applyDynamicBrushes="promptsOnly">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+			</EditorProperties>
+			<Title><P><Span class="span44">Number of Product Unit ID&apos;s returned in this table: </Span><Span class="span45">This number will be used as a top count by Gross Claim Amount.</Span><Span class="span44"> </Span></P></Title>
+			<TextField/>
+		</Prompt>
+		<Table columnSizing="autoFill" resultDefinitions="dd27058" name="ve27078" data="dd27076" label="Product Detail List" description="This table provides details on a specific vehicle.  Here we can see the different costs for the claim and when/where the vehicle was assembled." applyDynamicBrushes="yes" sourceInteractionVariables="bi27063 bi27061 bi27060 bi27064 bi27065 bi27066 bi27067 bi27068 bi27069">
+			<EditorProperties>
+				<Property key="addedInteractionQueryDataItems">bi32392,bi32393</Property>
+			</EditorProperties>
+			<Title><P><Span>Product Detail List</Span></P></Title>
+			<Columns>
+				<Column class="tableColumnbi1171" variable="bi27063" isVisible="true"/>
+				<Column class="tableColumnbi1172" variable="bi27061" isVisible="true"/>
+				<Column class="tableColumnbi1173" variable="bi27060" isVisible="true"/>
+				<Column class="tableColumnbi1174" variable="bi27064" isVisible="true"/>
+				<Column class="tableColumnbi1175" variable="bi27065" isVisible="true"/>
+				<Column class="tableColumnbi1176" variable="bi27066" isVisible="true"/>
+				<Column class="tableColumnbi1177" variable="bi27067" isVisible="true"/>
+				<Column variable="bi27068" isVisible="true"/>
+				<Column class="tableColumnbi1179" variable="bi27069" isVisible="true"/>
+				<Column class="tableColumnbi1181" variable="bi27071" isVisible="true"/>
+				<Column class="tableColumnbi1182" variable="bi27072" isVisible="true"/>
+				<Column class="tableColumnbi27073" variable="bi27073" isVisible="true"/>
+				<Column variable="bi27074" isVisible="true"/>
+			</Columns>
+		</Table>
+		<Graph graphType="step" supplementalVisuals="ve27123" resultDefinitions="dd27121" name="ve1044" data="dd27119" label="Cost by Production Date" action="ac27211" description="This step plot shows how the Gross Claim Amount is trending over time based on claim submitted date. It is filtered by the treemap." applyDynamicBrushes="yes" sourceInteractionVariables="bi28123">
+			<EditorProperties>
+				<Property key="addedInteractionQueryDataItems">bi32394,bi32395,bi32396</Property>
+			</EditorProperties>
+			<Title><P><Span>Cost by Claim Submitted Date</Span></P></Title>
+<![CDATA[<StatGraph border="false" displayOptionPolicy="union" includeMissingDiscrete="true" missingValueDisplay="autolabel" opaque="false" selectionMode="multiple">
+    <PadAttrs bottom="0px" left="0px" right="0px" top="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar assignedType="time" description="X_VAR" multiplesAllowed="false" name="X" required="true" type="any">
+                <DefaultValues>
+                    <Value>dd27121.bi28123</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="any" description="Y_VAR" multiplesAllowed="false" name="Y" required="true" type="numeric">
+                <DefaultValues>
+                    <Value>dd27121.bi27127</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar description="SUBGROUP_VAR" multiplesAllowed="false" name="GROUP" required="false" type="character"/>
+            <DynVar description="LABEL_VAR" multiplesAllowed="false" name="LABEL" required="false" type="any"/>
+            <DynVar description="HORIZONTAL_SERIES_VAR" multiplesAllowed="true" name="COLUMN" required="false" type="character"/>
+            <DynVar description="VERTICAL_SERIES_VAR" multiplesAllowed="true" name="ROW" required="false" type="character"/>
+            <DynVar assignedType="time" description="TIP_VAR" multiplesAllowed="true" name="TIP" required="false" type="any">
+                <DefaultValues>
+                    <Value>dd27121.bi25184</Value>
+                    <Value>dd27121.bi27127</Value>
+                    <Value>dd27121.bi28123</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar description="HIDDEN_VAR" multiplesAllowed="true" name="HIDDEN" required="false" type="character"/>
+        </DynVars>
+    </Meta>
+    <LayoutDataMatrix columnVars="COLUMN" includeMissingClass="true" rowVars="ROW">
+        <LayoutPrototypeOverlay2D wallDisplay="NONE">
+            <StepPlot _stmt="stepplot" connectOrder="xaxis" dataLabel="LABEL" dataTransparency="0" display="NOMARKERS" group="GROUP" name="StepPlot" tip="TIP" tipListPolicy="replace" x="X" y="Y">
+                <LineAttrs thickness="2px"/>
+            </StepPlot>
+            <XAxisOpts display="TICKVALUES" gridDisplay="on" name="categoryAxis">
+                <DiscreteOpts sortOrder="data" tickValueAppearance="auto" tickValueFitPolicy="staggertruncatedrop"/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TimeOpts splitTickValue="false" tickValueFormat="DATA"/>
+                <TickValueAttrs size="9pt"/>
+            </XAxisOpts>
+            <YAxisOpts display="TICKVALUES" gridDisplay="on" type="auto">
+                <DiscreteOpts sortOrder="data"/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TickValueAttrs size="9pt"/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend allowCollapsed="true" legendTitlePosition="top">
+        <AutoLegend>
+            <GraphNames>
+                <Value>StepPlot</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <OverviewAxis axis="categoryAxis" maxPlotSize="60px" minPlotSize="35px" visible="off"/>
+</StatGraph>]]>
+		</Graph>
+		<Graph graphType="treeMap" supplementalVisuals="ve27158" resultDefinitions="dd27156" name="ve1028" data="dd27154" label="Costs by Labor Code" action="ac27222" description="This chart breaks out Labor Costs (color) vs Material Costs (size) by Labor Group. Drill into any Primary Labor Description to see details about Primary Labor Codes. This chart also filters the step plot.  To see details about any of these labor codes use the page link to Detailed Cost Analysis by Product Unit IDs.  " applyDynamicBrushes="yes" sourceInteractionVariables="bi26732 bi29365">
+			<EditorProperties>
+				<Property key="addedInteractionQueryDataItems">bi32397</Property>
+			</EditorProperties>
+			<Title auto="false"><P><Span>Labor and Material Costs by Labor Code</Span></P></Title>
+<![CDATA[<StatGraph border="false" displayOptionPolicy="union" includeMissingDiscrete="true" missingValueDisplay="autolabel" opaque="false" selectionMode="multiple">
+    <PadAttrs bottom="0px" left="0px" right="0px" top="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar assignedType="any" description="TILE_VAR" name="TILE" required="true" type="character">
+                <DefaultValues>
+                    <Value>dd27156.bi29365</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="any" description="SIZE_VAR" name="SIZE" required="true" type="numeric">
+                <DefaultValues>
+                    <Value>dd27156.bi1035</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="any" description="COLOR_VAR" name="COLOR" required="false" type="numeric">
+                <DefaultValues>
+                    <Value>dd27156.bi1036</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="character" description="TIP_VAR" multiplesAllowed="true" name="TIP" required="false" type="any">
+                <DefaultValues>
+                    <Value>dd27156.bi26732</Value>
+                    <Value>dd27156.bi29365</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar description="HIDDEN_VAR" multiplesAllowed="true" name="HIDDEN" required="false" type="character"/>
+        </DynVars>
+    </Meta>
+    <LayoutRegion>
+        <TreeMap _stmt="treemap" colorModel="TwoColorRamp" colorResponse="COLOR" display="NOLEVELINDICATOR DATALABEL" name="TreeMap" size="SIZE" tileBy="TILE" tip="TIP" tipListPolicy="replace">
+            <DataLabelAttrs color="16777215"/>
+            <OutlineAttrs thickness="3px"/>
+        </TreeMap>
+    </LayoutRegion>
+    <LayoutGlobalLegend allowCollapsed="true" hAlign="right" legendTitlePosition="top" position="top" vAlign="top">
+        <SizeLegend border="false" extractScale="true" opaque="false" title="AUTO" title_type="KEYWORD">
+            <GraphNames>
+                <Value>TreeMap</Value>
+            </GraphNames>
+        </SizeLegend>
+        <ContinuousLegend border="false" displayMissing="automatic" extractScale="true" opaque="false" title="AUTO" title_type="KEYWORD">
+            <GraphNames>
+                <Value>TreeMap</Value>
+            </GraphNames>
+        </ContinuousLegend>
+    </LayoutGlobalLegend>
+</StatGraph>]]>
+		</Graph>
+		<Prompt ref="pr27228" name="ve27224" label="Dealer filter" description="This is a text box filter that filters the page on dealer." selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi27236">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+				<Property key="addedInteractionQueryDataItems">bi32398,bi32399,bi32400</Property>
+			</EditorProperties>
+			<TextField/>
+		</Prompt>
+		<Prompt ref="pr27436" name="ve27324" label="Ship Year button bar for Detailed Cost Analysis" description="This button bar filters the page by ship year." selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi27368">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+			</EditorProperties>
+			<LinkBar/>
+		</Prompt>
+		<Prompt ref="pr27374" name="ve27370" label="Ship Year filter for Labor Details" description="This button bar filters the page by ship year." selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi27375">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+			</EditorProperties>
+			<LinkBar/>
+		</Prompt>
+		<Prompt ref="pr92" name="ve27590" label="Ship Year Filter for Cost Overview" description="This button bar filters the page by ship year." selectionDisabled="true" applyDynamicBrushes="promptsOnly" sourceInteractionVariables="bi27689">
+			<EditorProperties>
+				<Property key="autoChartCategory">CONTROL</Property>
+			</EditorProperties>
+			<LinkBar/>
+		</Prompt>
+		<VisualContainer containerType="layout" name="ve27667" label="Layout Container 1 (1)" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="visualType">LAYOUT_CONTAINER</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<VisualContainer containerType="layout" name="ve27635" label="Layout Container 13 (1)" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="visualType">LAYOUT_CONTAINER</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<VisualContainer containerType="layout" name="ve27665" label="Layout Container 2 (1)" selectionDisabled="true">
+			<EditorProperties>
+				<Property key="visualType">LAYOUT_CONTAINER</Property>
+			</EditorProperties>
+		</VisualContainer>
+		<Graph graphType="bar" supplementalVisuals="ve27647" resultDefinitions="dd27639" name="ve27648" data="dd27645" label="Costs by Primary Labor Group" action="ac27638" description="This bar chart compares the different costs for each Primary Labor Group. Drill down into Primary Labor Codes. Does one Primary Labor Code stand out more than the others? This chart is also linked to Cost Details which provides detailed information on total and average costs. The sparkline shows you how the total warranty costs have changed over time.  Which model(s) have the most expense? " applyDynamicBrushes="yes" sourceInteractionVariables="bi27637">
+			<EditorProperties>
+				<Property key="specifyWidthSelected">true</Property>
+				<Property key="specifyHeightSelected">true</Property>
+				<Property key="addedInteractionQueryDataItems">bi32401,bi32402</Property>
+			</EditorProperties>
+			<Title auto="false"><P><Span>Costs by Primary Labor Group</Span></P></Title>
+<![CDATA[<StatGraph border="false" opaque="false" includeMissingDiscrete="true" selectionMode="multiple" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="true" assignedType="any" type="character">
+                <DefaultValues>
+                    <Value>dd27639.bi27637</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="any" type="numeric" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd27639.bi27641</Value>
+                    <Value>dd27639.bi27642</Value>
+                    <Value>dd27639.bi27643</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="GROUP" description="SUBGROUP_VAR" required="false" type="character"/>
+            <DynVar name="COLUMN" description="HORIZONTAL_SERIES_VAR" required="false" type="character" multiplesAllowed="true"/>
+            <DynVar name="ROW" description="VERTICAL_SERIES_VAR" required="false" type="character" multiplesAllowed="true"/>
+            <DynVar name="TIP" description="TIP_VAR" required="false" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd27639.bi27637</Value>
+                    <Value>dd27639.bi27641</Value>
+                    <Value>dd27639.bi27642</Value>
+                    <Value>dd27639.bi27643</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="KEY_FRAME" description="ANIMATION" required="false" type="time" multiplesAllowed="false"/>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+        <DataNameMap>
+            <Entry model="LayoutDataMatrix_16" data="dd27639"/>
+        </DataNameMap>
+    </Meta>
+    <LayoutDataMatrix name="LayoutDataMatrix_16" rowVars="ROW" columnVars="COLUMN">
+        <LayoutPrototypeOverlay2D>
+            <BarChartParm name="DRM30783" tipListPolicy="replace" _stmt="barchart" groupDisplay="stack" orient="vertical" stat="none" tip="TIP" category="CATEGORY" responseVars="RESPONSE" group="GROUP"/>
+            <XAxisOpts name="AxisOptions_169" display="LINE TICKS TICKVALUES" gridDisplay="off" reverse="false">
+                <DiscreteOpts sortOrder="data" tickValueAppearance="hyperlink"/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TickValueAttrs size="9pt"/>
+            </XAxisOpts>
+            <YAxisOpts display="TICKVALUES" gridDisplay="on" reverse="false">
+                <DiscreteOpts tickValueFitPolicy="staggertruncatedrop" sortOrder="data"/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <TickValueAttrs size="9pt"/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend hAlign="right" vAlign="top" legendTitlePosition="top" position="top">
+        <AutoLegend>
+            <GraphNames>
+                <Value>DRM30783</Value>
+            </GraphNames>
+        </AutoLegend>
+    </LayoutGlobalLegend>
+    <Animation keyFrame="KEY_FRAME"/>
+    <OverviewAxis maxPlotSize="60px" minPlotSize="35px" visible="off" axis="AxisOptions_169"/>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd27639" name="ve27647" data="dd27645" applyDynamicBrushes="yes" sourceInteractionVariables="bi27637">
+			<Columns>
+				<Column variable="bi27637" isVisible="true"/>
+				<Column variable="bi27641" isVisible="true"/>
+				<Column variable="bi27642" isVisible="true"/>
+				<Column variable="bi27643" isVisible="true"/>
+			</Columns>
+		</Table>
+		<Graph graphType="bubbleChange" supplementalVisuals="ve27662" resultDefinitions="dd27651" name="ve27663" data="dd27660" label="Bubble Change Plot" description="This bubble plot shows how the labor costs (x-axis), material costs (y-axis) and the total warranty costs (size of the bubble) have changed from the previous year. " applyDynamicBrushes="yes" sourceInteractionVariables="bi27650">
+			<EditorProperties>
+				<Property key="specifyHeightSelected">true</Property>
+				<Property key="addedInteractionQueryDataItems">bi32403</Property>
+			</EditorProperties>
+			<Title><P><Span>Cost Change from Previous Year by Primary Labor Group</Span></P></Title>
+<![CDATA[<StatGraph includeMissingDiscrete="true" missingValueDisplay="autolabel" opaque="false" selectionMode="multiple">
+    <PadAttrs bottom="0px" left="0px" right="0px" top="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar assignedType="any" description="X_START_VAR" multiplesAllowed="false" name="X_START" required="true" type="numeric">
+                <DefaultValues>
+                    <Value>dd27651.bi27654</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="any" description="X_END_VAR" multiplesAllowed="false" name="X_END" required="true" type="numeric">
+                <DefaultValues>
+                    <Value>dd27651.bi27655</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="any" description="Y_START_VAR" multiplesAllowed="false" name="Y_START" required="true" type="numeric">
+                <DefaultValues>
+                    <Value>dd27651.bi27656</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="any" description="Y_END_VAR" multiplesAllowed="false" name="Y_END" required="true" type="numeric">
+                <DefaultValues>
+                    <Value>dd27651.bi27657</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="any" description="SIZE_START_VAR" multiplesAllowed="false" name="SIZE_START" required="true" type="numeric">
+                <DefaultValues>
+                    <Value>dd27651.bi27653</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="any" description="SIZE_END_VAR" multiplesAllowed="false" name="SIZE_END" required="true" type="numeric">
+                <DefaultValues>
+                    <Value>dd27651.bi27658</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar assignedType="any" description="SUBGROUP_VAR" multiplesAllowed="false" name="GROUP" required="true" type="character">
+                <DefaultValues>
+                    <Value>dd27651.bi27650</Value>
+                </DefaultValues>
+            </DynVar>
+        </DynVars>
+    </Meta>
+    <LayoutDataMatrix includeMissingClass="true">
+        <LayoutPrototypeOverlay2D>
+            <BubblePlot _stmt="bubbleplot" animationID="GROUP" dataTransparency="0" group="GROUP" name="BubblePlot_0" size="SIZE_START" tipListPolicy="append" trailDisplay="BUBBLE LINE" x="X_START" y="Y_START"/>
+            <BubblePlot _stmt="bubbleplot" animationID="GROUP" dataTransparency="0" group="GROUP" name="BubblePlot_1" size="SIZE_END" tipListPolicy="append" trailDisplay="BUBBLE LINE" x="X_END" y="Y_END"/>
+            <VectorPlot _stmt="vectorplot" animationID="GROUP" arrowHeads="true" dataTransparency="0.600000023" group="GROUP" legendLabel="Vector Plot " name="VectorPlot_0" tipListPolicy="append" x="X_END" xOrigin="X_START" y="Y_END" yOrigin="Y_START">
+                <LineAttrs thickness="2px"/>
+            </VectorPlot>
+            <XAxisOpts label="X" name="categoryAxis">
+                <DiscreteOpts tickValueAppearance="auto"/>
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <LabelAttrs size="9pt"/>
+                <TickValueAttrs size="9pt"/>
+            </XAxisOpts>
+            <YAxisOpts label="Y">
+                <LinearOpts>
+                    <TickValueFormatOpts extractScale="true"/>
+                </LinearOpts>
+                <LabelAttrs size="9pt"/>
+                <TickValueAttrs size="9pt"/>
+            </YAxisOpts>
+        </LayoutPrototypeOverlay2D>
+    </LayoutDataMatrix>
+    <LayoutGlobalLegend allowCollapsed="true" hAlign="right" legendTitlePosition="top" position="right" vAlign="center">
+        <AutoLegend sortOrder="ascending">
+            <GraphNames>
+                <Value>BubblePlot_0</Value>
+            </GraphNames>
+        </AutoLegend>
+        <SizeLegend border="false" extractScale="true" opaque="false" title="AUTO" title_type="KEYWORD">
+            <GraphNames>
+                <Value>BubblePlot_0</Value>
+            </GraphNames>
+        </SizeLegend>
+        <SizeLegend border="false" extractScale="true" opaque="false" title="AUTO" title_type="KEYWORD">
+            <GraphNames>
+                <Value>BubblePlot_1</Value>
+            </GraphNames>
+        </SizeLegend>
+    </LayoutGlobalLegend>
+    <OverviewAxis axis="categoryAxis" maxPlotSize="60px" minPlotSize="35px" visible="off"/>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd27651" name="ve27662" data="dd27660" applyDynamicBrushes="yes" sourceInteractionVariables="bi27650">
+			<Columns>
+				<Column variable="bi27654"/>
+				<Column variable="bi27655"/>
+				<Column variable="bi27656"/>
+				<Column variable="bi27657"/>
+				<Column variable="bi27653"/>
+				<Column variable="bi27658"/>
+				<Column variable="bi27650"/>
+			</Columns>
+		</Table>
+		<Text name="ve27673" label="Cost Overview Text" description="Link to more information on this page." selectionDisabled="true" applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="specifyHeightSelected">true</Property>
+			</EditorProperties>
+			<P class="paragraph1"><Span class="span1"><Span><Span><Span action="ac27672">More information</Span></Span></Span></Span></P>
+		</Text>
+		<Graph graphType="keyValue" supplementalVisuals="ve27698" resultDefinitions="dd27696" name="ve27604" data="dd27694" label="Total Warranty Cost Key Value" description="Key value metric for Total Warranty Costs with display rules to highlight when current value is above threshold." applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="specifyHeightSelected">true</Property>
+				<Property key="addedInteractionQueryDataItems">bi32404</Property>
+			</EditorProperties>
+			<Title><P class="paragraph34"><Span class="span90">Total Warranty Cost</Span></P></Title>
+			<Conditions>
+				<Condition ref="cd28685">
+					<ConditionParameters>
+						<ConditionParameter variable="bi1" parameter="bi27594"/>
+					</ConditionParameters>
+				</Condition>
+				<Condition ref="cd30790">
+					<ConditionParameters>
+						<ConditionParameter variable="bi1" parameter="bi27594"/>
+					</ConditionParameters>
+				</Condition>
+			</Conditions>
+<![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="false" type="character"/>
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="any" type="numeric">
+                <DefaultValues>
+                    <Value>dd27696.bi27594</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd27696.bi27594</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+    </Meta>
+    <LayoutRegion>
+        <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="left" key="responsevalue" vAlign="center" tip="TIP" category="CATEGORY" response="RESPONSE">
+            <ResponseValueFormatOpts extractScale="true"/>
+            <KeyAttrs weight="normal" style="normal"/>
+        </KeyValue>
+    </LayoutRegion>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd27696" name="ve27698" data="dd27694" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi27594"/>
+			</Columns>
+		</Table>
+		<Graph graphType="keyValue" supplementalVisuals="ve27703" resultDefinitions="dd27701" name="ve27618" data="dd27699" label="Total Part Cost" description="Key value metric for Total Parts Cost with display rules to highlight when current value is above threshold." applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="specifyHeightSelected">true</Property>
+				<Property key="addedInteractionQueryDataItems">bi32405</Property>
+			</EditorProperties>
+			<Title><P class="paragraph26"><Span class="span54">Total Parts Cost</Span></P></Title>
+			<Conditions>
+				<Condition ref="cd28692">
+					<ConditionParameters>
+						<ConditionParameter variable="bi1" parameter="bi27608"/>
+					</ConditionParameters>
+				</Condition>
+				<Condition ref="cd30793">
+					<ConditionParameters>
+						<ConditionParameter variable="bi1" parameter="bi27608"/>
+					</ConditionParameters>
+				</Condition>
+			</Conditions>
+<![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="false" type="character"/>
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="any" type="numeric">
+                <DefaultValues>
+                    <Value>dd27701.bi27608</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd27701.bi27608</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+    </Meta>
+    <LayoutRegion>
+        <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="left" key="responsevalue" vAlign="center" tip="TIP" category="CATEGORY" response="RESPONSE">
+            <KeyAttrs weight="normal"/>
+        </KeyValue>
+    </LayoutRegion>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd27701" name="ve27703" data="dd27699" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi27608"/>
+			</Columns>
+		</Table>
+		<Graph graphType="keyValue" supplementalVisuals="ve27708" resultDefinitions="dd27706" name="ve27632" data="dd27704" label=" Total Labor Cost Key Value" description="Key value metric for Total Labor Costs with display rules to highlight when current value is above threshold." applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="specifyHeightSelected">true</Property>
+				<Property key="addedInteractionQueryDataItems">bi32406</Property>
+			</EditorProperties>
+			<Title><P class="paragraph39"><Span class="span92">Total Labor Cost</Span></P></Title>
+			<Conditions>
+				<Condition ref="cd28699">
+					<ConditionParameters>
+						<ConditionParameter variable="bi1" parameter="bi27622"/>
+					</ConditionParameters>
+				</Condition>
+				<Condition ref="cd30799">
+					<ConditionParameters>
+						<ConditionParameter variable="bi1" parameter="bi27622"/>
+					</ConditionParameters>
+				</Condition>
+			</Conditions>
+<![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="false" type="character"/>
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="any" type="numeric">
+                <DefaultValues>
+                    <Value>dd27706.bi27622</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd27706.bi27622</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+    </Meta>
+    <LayoutRegion>
+        <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="left" key="responsevalue" vAlign="center" tip="TIP" category="CATEGORY" response="RESPONSE">
+            <KeyAttrs weight="normal"/>
+        </KeyValue>
+    </LayoutRegion>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd27706" name="ve27708" data="dd27704" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi27622"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd27121" name="ve27123" data="dd27119" applyDynamicBrushes="yes" sourceInteractionVariables="bi28123">
+			<Columns>
+				<Column variable="bi28123"/>
+				<Column variable="bi27127"/>
+				<Column variable="bi25184"/>
+			</Columns>
+		</Table>
+		<Graph graphType="keyValue" supplementalVisuals="ve28645" resultDefinitions="dd28644" name="ve28641" data="dd28642" label="Total Claim Count Key Value" description="Key value metric for Total Claim Count with display rules to highlight when current value is above threshold." applyDynamicBrushes="no">
+			<EditorProperties>
+				<Property key="specifyWidthSelected">true</Property>
+				<Property key="specifyHeightSelected">true</Property>
+				<Property key="addedInteractionQueryDataItems">bi32407</Property>
+			</EditorProperties>
+			<Title><P class="paragraph41"><Span class="span62">Total Claim Count</Span></P></Title>
+			<Conditions>
+				<Condition ref="cd28711">
+					<ConditionParameters>
+						<ConditionParameter variable="bi1" parameter="bi28647"/>
+					</ConditionParameters>
+				</Condition>
+				<Condition ref="cd30802">
+					<ConditionParameters>
+						<ConditionParameter variable="bi1" parameter="bi28647"/>
+					</ConditionParameters>
+				</Condition>
+			</Conditions>
+<![CDATA[<StatGraph border="false" opaque="false" missingValueDisplay="autolabel">
+    <PadAttrs top="0px" bottom="0px" left="0px" right="0px"/>
+    <Meta>
+        <DynVars>
+            <DynVar name="CATEGORY" description="CATEGORY_VAR" required="false" type="character"/>
+            <DynVar name="RESPONSE" description="MEASURE_VAR" required="true" assignedType="any" type="numeric">
+                <DefaultValues>
+                    <Value>dd28644.bi28647</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="TIP" description="TIP_VAR" required="false" assignedType="numeric" type="any" multiplesAllowed="true">
+                <DefaultValues>
+                    <Value>dd28644.bi28647</Value>
+                </DefaultValues>
+            </DynVar>
+            <DynVar name="HIDDEN" description="HIDDEN_VAR" required="false" type="character" multiplesAllowed="true"/>
+        </DynVars>
+    </Meta>
+    <LayoutRegion>
+        <KeyValue name="KeyValue" tipListPolicy="replace" _stmt="keyValue" display="CATEGORYLABEL CATEGORYVALUE RESPONSEVALUE" hAlign="center" justify="center" key="responsevalue" vAlign="center" tip="TIP" category="CATEGORY" response="RESPONSE">
+            <CategoryLabelAttrs weight="normal"/>
+            <CategoryValueAttrs weight="normal"/>
+            <KeyAttrs weight="normal"/>
+        </KeyValue>
+    </LayoutRegion>
+</StatGraph>]]>
+		</Graph>
+		<Table columnSizing="autoFill" resultDefinitions="dd28644" name="ve28645" data="dd28642" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi28647"/>
+			</Columns>
+		</Table>
+		<Text name="ve13532" label="Labor Details Information Text" description="This text box provides information about the Labor Details page." selectionDisabled="true" applyDynamicBrushes="no">
+			<P><Span class="span2"><Span class="span7">Labor Details</Span></Span></P>
+			<P><Span> </Span></P>
+			<P><Span>This section shows a more granular view into the labor code&apos;s costs and frequency. This section also breaks the information out by repairing dealer (see Gross Labor Amounts by Repairing Dealer chart).</Span></P>
+			<P><Span> </Span></P>
+			<P><Span class="span15">Labor Description by Claim Amount: </Span><Span>This word cloud shows the Gross Claim Amount (size of font) and Total Claim Count (color) for the top Labor Code descriptions. Select a description and note how all the other charts change based on your selection. Do you notice any trends over time?</Span></P>
+			<P><Span> </Span></P>
+			<P><Span class="span22">Labor Amounts by Repairing Dealer: </Span><Span> This dot plot shows the Gross Labor Costs by repairing dealer. This chart is filtered by labor code descriptions when a description is selected in the Labor Description by Claim Amount chart. Notice any outliers? Select outliers to find the dealer ID whose labor costs are above the norm.  </Span></P>
+			<P><Span> </Span><Span> </Span></P>
+			<P><Span class="span30">Claim Amount and Total Count by Month: </Span><Span>This chart show the Gross Claim Amount (teal line) and the Total Claim Count (orange line) over time. You can filter this chart by labor code description by selecting a description in the Labor Description by Claim Amount chart. Notice any trends? If you see an upward trend over time, you should investigate further.  </Span></P>
+			<P><Span> </Span></P>
+			<P><Span>Now check out the forecasts by going to the next section in the report: Labor Group Analysis and Forecast.</Span></P>
+			<P><Span> </Span></P>
+		</Text>
+		<Table columnSizing="autoFill" resultDefinitions="dd27156" name="ve27158" data="dd27154" applyDynamicBrushes="yes" sourceInteractionVariables="bi26732 bi29365">
+			<Columns>
+				<Column variable="bi29365"/>
+				<Column variable="bi1035"/>
+				<Column variable="bi1036"/>
+				<Column variable="bi26732"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd3462" name="ve3463" data="dd3460" applyDynamicBrushes="yes" sourceInteractionVariables="bi3464">
+			<Columns>
+				<Column variable="bi3464"/>
+				<Column variable="bi3466"/>
+				<Column variable="bi29475"/>
+				<Column variable="bi29476"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd3947" name="ve32190" data="dd3945" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi3957"/>
+				<Column variable="bi3962"/>
+				<Column variable="bi23586"/>
+				<Column variable="bi3964"/>
+				<Column variable="bi3963"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd3966" name="ve32191" data="dd3945" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi3950"/>
+				<Column variable="bi3949"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd3578" name="ve32195" data="dd3576" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi3800"/>
+				<Column variable="bi3805"/>
+				<Column variable="bi23581"/>
+				<Column variable="bi3807"/>
+				<Column variable="bi3806"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd3813" name="ve32196" data="dd3576" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi3792"/>
+				<Column variable="bi3791"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd3528" name="ve32200" data="dd3526" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi3538"/>
+				<Column variable="bi3543"/>
+				<Column variable="bi23576"/>
+				<Column variable="bi3545"/>
+				<Column variable="bi3544"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd3549" name="ve32201" data="dd3526" applyDynamicBrushes="yes">
+			<Columns>
+				<Column variable="bi3531"/>
+				<Column variable="bi3530"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd32412" name="ve32414" data="dd3526">
+			<Columns>
+				<Column variable="bi32413"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd32416" name="ve32418" data="dd3576">
+			<Columns>
+				<Column variable="bi32417"/>
+			</Columns>
+		</Table>
+		<Table columnSizing="autoFill" resultDefinitions="dd32420" name="ve32422" data="dd3945">
+			<Columns>
+				<Column variable="bi32421"/>
+			</Columns>
+		</Table>
+	</VisualElements>
+	<PromptDefinitions>
+		<PromptDefinition data="dd27690" label="Ship Year 2" labelFormatted="false" isParameter="true" labelVariable="bi27689" valueVariable="bi27689" resultDefinitions="dd27692" name="pr92">
+			<DefaultValue>
+				<String>2015</String>
+			</DefaultValue>
+			<StringConstraint userValuesAllowed="false" required="true" minInclusive="false" maxInclusive="false"/>
+		</PromptDefinition>
+		<PromptDefinition data="dd929" label="Engine Make Parameter" labelFormatted="false" isParameter="true" labelVariable="bi951" valueVariable="bi951" resultDefinitions="dd931" measureVariable="bi1308" name="pr952">
+			<DefaultValue>
+				<String>Titan</String>
+			</DefaultValue>
+			<StringConstraint userValuesAllowed="false" minInclusive="false" maxInclusive="false"/>
+		</PromptDefinition>
+		<PromptDefinition data="dd959" label="Product Model Parameter" labelFormatted="false" isParameter="true" labelVariable="bi965" valueVariable="bi965" resultDefinitions="dd961" measureVariable="bi1309" name="pr966">
+			<DefaultValue>
+				<String>Abyss</String>
+			</DefaultValue>
+			<StringConstraint userValuesAllowed="false" minInclusive="false" maxInclusive="false"/>
+		</PromptDefinition>
+		<PromptDefinition data="dd972" label="Model Year Parameter" labelFormatted="false" isParameter="true" labelVariable="bi976" valueVariable="bi976" resultDefinitions="dd974" measureVariable="bi1310" name="pr977">
+			<DefaultValue>
+				<String>2018</String>
+			</DefaultValue>
+			<StringConstraint userValuesAllowed="false" minInclusive="false" maxInclusive="false"/>
+		</PromptDefinition>
+		<PromptDefinition label="Top Count" labelFormatted="false" isParameter="true" format="BEST12." name="pr1123">
+			<DefaultValue>
+				<Number type="double" value="5.0"/>
+			</DefaultValue>
+			<NumericConstraint min="0.0" max="100.0" userValuesAllowed="false" minInclusive="true" maxInclusive="true"/>
+		</PromptDefinition>
+		<PromptDefinition label="Repairing Dealer" labelFormatted="false" isParameter="true" name="pr2430">
+			<DefaultValue>
+				<String>D993</String>
+			</DefaultValue>
+			<StringConstraint userValuesAllowed="false" required="false" minInclusive="false" maxInclusive="false"/>
+		</PromptDefinition>
+		<PromptDefinition data="dd27225" labelVariable="bi27236" valueVariable="bi27236" resultDefinitions="dd27227" name="pr27228">
+			<DefaultValue>
+				<String>D-003</String>
+			</DefaultValue>
+			<StringConstraint/>
+		</PromptDefinition>
+		<PromptDefinition data="dd27371" labelVariable="bi27375" valueVariable="bi27375" resultDefinitions="dd27373" name="pr27374">
+			<DefaultValue>
+				<String>2016</String>
+			</DefaultValue>
+			<StringConstraint/>
+		</PromptDefinition>
+		<PromptDefinition data="dd27325" labelVariable="bi27368" valueVariable="bi27368" resultDefinitions="dd27327" name="pr27436">
+			<DefaultValue>
+				<String>2017</String>
+			</DefaultValue>
+			<StringConstraint/>
+		</PromptDefinition>
+	</PromptDefinitions>
+	<View>
+		<Section name="vi27675" label="Cost Overview">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve27590" name="vi27591">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" flexibility="fixed"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Container ref="ve27667" name="vi27668">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" flexibility="shrinkable"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" flexibility="shrinkable"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+						<ResponsiveLayout orientation="vertical" overflow="grow"/>
+						<Container ref="ve27635" name="vi27636">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" flexibility="shrinkable"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" flexibility="shrinkable"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+							<ResponsiveLayout orientation="vertical" overflow="grow">
+								<Weights mediaTarget="mt5" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt4" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt3" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+							</ResponsiveLayout>
+							<Visual ref="ve27604" name="vi27606">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" value="15%" flexibility="fixed"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" value="15%" flexibility="shrinkable"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+							</Visual>
+							<Visual ref="ve27618" name="vi27620">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" value="15%" flexibility="fixed"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" value="15%" flexibility="shrinkable"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+							</Visual>
+							<Visual ref="ve27632" name="vi27634">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" value="15%" flexibility="fixed"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" value="15%" flexibility="shrinkable"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+							</Visual>
+							<Visual ref="ve28641" name="vi28640">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" value="15%" flexibility="shrinkable"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" value="15%" flexibility="shrinkable"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+							</Visual>
+						</Container>
+						<Container ref="ve27665" name="vi27666">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" flexibility="shrinkable"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" flexibility="shrinkable"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+							<ResponsiveLayout orientation="vertical" overflow="grow">
+								<Weights mediaTarget="mt5" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt4" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt3" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+							</ResponsiveLayout>
+							<Visual ref="ve27648" name="vi27649">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" value="85.19%" flexibility="shrinkable"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" value="45%"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+							</Visual>
+							<Visual ref="ve27663" name="vi27664">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" value="85.19%" flexibility="shrinkable"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" value="49.52%" flexibility="shrinkable"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+							</Visual>
+							<Visual ref="ve27673" name="vi27674">
+								<ResponsiveConstraint>
+									<WidthConstraint>
+										<Width mediaTarget="mt3" flexibility="flexible"/>
+									</WidthConstraint>
+									<HeightConstraint>
+										<Height mediaTarget="mt3" value="5.56%" flexibility="shrinkable"/>
+									</HeightConstraint>
+								</ResponsiveConstraint>
+							</Visual>
+						</Container>
+					</Container>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<HiddenSection width="50%" height="50%" purpose="information" name="vi8895" label="Cost Overview Information">
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve8898" name="vi8896"/>
+				</MediaContainer>
+			</Body>
+		</HiddenSection>
+		<HiddenSection width="50%" height="50%" purpose="information" name="vi498" label="Cost Details">
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve750" name="vi748"/>
+					<Visual ref="ve24528" name="vi24529">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</HiddenSection>
+		<Section name="vi901" label="Detailed Cost Analysis">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve27324" name="vi27323">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" flexibility="fixed"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+					<Container ref="ve24878" name="vi24877">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" flexibility="fixed"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+						<ResponsiveLayout orientation="vertical" overflow="fit">
+							<Weights mediaTarget="mt5" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+							<Weights mediaTarget="mt4" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+							<Weights mediaTarget="mt3" unit="percent">
+								<Weight value="100%"/>
+							</Weights>
+						</ResponsiveLayout>
+						<Visual ref="ve928" name="vi926">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+						</Visual>
+						<Visual ref="ve958" name="vi956">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+						</Visual>
+						<Visual ref="ve971" name="vi969">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" preferredSizeBehavior="honor" flexibility="fixed"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+						</Visual>
+					</Container>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve1028" name="vi1026">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" value="100%" flexibility="fixed"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" value="29.15%" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+					<Visual ref="ve1044" name="vi1042">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" value="100%" flexibility="shrinkable"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" value="65.29%" flexibility="shrinkable"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+					<Visual ref="ve24873" name="vi24874">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" value="100%" flexibility="fixed"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<HiddenSection width="50%" height="50%" purpose="information" name="vi11302" label="Detailed Cost Analysis Information">
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve11305" name="vi11303"/>
+				</MediaContainer>
+			</Body>
+		</HiddenSection>
+		<HiddenSection width="50%" height="50%" purpose="information" name="vi27080" label="Detailed Cost Analysis by Product Unit IDs">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve27224" name="vi27223">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" flexibility="fixed"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve27045" name="vi27049">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" value="33.22%" flexibility="shrinkable"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" value="10%" flexibility="shrinkable"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+					<Visual ref="ve27078" name="vi27079">
+						<ResponsiveConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" value="88.24%" flexibility="shrinkable"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</HiddenSection>
+		<Section name="vi2167" label="Labor Details">
+			<Header>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="horizontal" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve27370" name="vi27369">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" flexibility="fixed"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Header>
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Container ref="ve2310" name="vi2308">
+						<ResponsiveLayout orientation="vertical" overflow="grow"/>
+						<Visual ref="ve18564" name="vi18562">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" value="50%"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" flexibility="fixed"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+						</Visual>
+						<Visual ref="ve2342" name="vi2340">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" value="50%" flexibility="growable"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" flexibility="fixed"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+						</Visual>
+					</Container>
+					<Visual ref="ve2325" name="vi2323">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" value="100%" flexibility="fixed"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" value="50%" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+					<Visual ref="ve25373" name="vi25374">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" value="100%" flexibility="fixed"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<HiddenSection width="50%" height="50%" purpose="information" name="vi13529" label="Labor Details Information">
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve13532" name="vi13530"/>
+				</MediaContainer>
+			</Body>
+		</HiddenSection>
+		<Section name="vi3418" label="Labor Group Analysis and Forecast">
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Container ref="ve25680" name="vi25679">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" flexibility="shrinkable"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" flexibility="shrinkable"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+						<ResponsiveLayout orientation="vertical" overflow="grow"/>
+						<Visual ref="ve3459" name="vi3457">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" value="30%" flexibility="fixed"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" flexibility="fixed"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+						</Visual>
+						<Container ref="ve3569" name="vi3567">
+							<ResponsiveConstraint>
+								<WidthConstraint>
+									<Width mediaTarget="mt3" value="70%" flexibility="flexible"/>
+								</WidthConstraint>
+								<HeightConstraint>
+									<Height mediaTarget="mt3" flexibility="flexible"/>
+								</HeightConstraint>
+							</ResponsiveConstraint>
+							<ResponsiveLayout orientation="horizontal" overflow="stack">
+								<Weights mediaTarget="mt5" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt4" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+								<Weights mediaTarget="mt3" unit="percent">
+									<Weight value="100%"/>
+								</Weights>
+							</ResponsiveLayout>
+							<Visual ref="ve3575" name="vi3573"/>
+							<Visual ref="ve3525" name="vi3523"/>
+							<Visual ref="ve3944" name="vi3942"/>
+						</Container>
+					</Container>
+					<Visual ref="ve3430" name="vi3428">
+						<ResponsiveConstraint>
+							<WidthConstraint>
+								<Width mediaTarget="mt3" value="100%" flexibility="flexible"/>
+							</WidthConstraint>
+							<HeightConstraint>
+								<Height mediaTarget="mt3" flexibility="fixed"/>
+							</HeightConstraint>
+						</ResponsiveConstraint>
+					</Visual>
+				</MediaContainer>
+			</Body>
+		</Section>
+		<HiddenSection width="50%" height="50%" purpose="information" name="vi13606" label="Labor Group Analysis Information">
+			<Body>
+				<MediaContainer target="mt2">
+					<ResponsiveLayout orientation="vertical" overflow="fit">
+						<Weights mediaTarget="mt5" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt4" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+						<Weights mediaTarget="mt3" unit="percent">
+							<Weight value="100%"/>
+						</Weights>
+					</ResponsiveLayout>
+					<Visual ref="ve13609" name="vi13607"/>
+				</MediaContainer>
+			</Body>
+		</HiddenSection>
+	</View>
+	<Actions>
+		<NavigationAction type="section" value="vi27080" behavior="filter" label="Detailed Cost Analysis by Product Unit IDs" name="ac27211"/>
+		<NavigationAction type="section" value="vi27080" behavior="setHeaderValue" label="Detailed Cost Analysis by Product Unit IDs" name="ac27222"/>
+		<NavigationAction type="section" value="vi13529" behavior="filter" label="Labor Details Information" name="ac27437"/>
+		<NavigationAction type="section" value="vi13606" behavior="filter" label="Labor Group Analysis Information" name="ac27440"/>
+		<NavigationAction type="section" value="vi498" behavior="filter" label="Cost Details" name="ac27638"/>
+		<NavigationAction type="section" value="vi8895" behavior="filter" label="Cost Overview Information" name="ac27672"/>
+		<NavigationAction type="section" value="vi11302" behavior="filter" label="Detailed Cost Analysis Information" name="ac27429"/>
+	</Actions>
+	<Interactions>
+		<Interaction name="ia1066" type="filter">
+			<InteractionElementReference purpose="source" ref="ve1028" variable="bi26732 bi29365"/>
+			<InteractionElementReference purpose="target" ref="ve1044" variable="bi32394 bi32395"/>
+		</Interaction>
+		<Interaction name="ia18747" type="filter">
+			<InteractionElementReference purpose="source" ref="ve18564" variable="bi18569"/>
+			<InteractionElementReference purpose="target" ref="ve2342" variable="bi32383"/>
+		</Interaction>
+		<Interaction name="ia18748" type="filter">
+			<InteractionElementReference purpose="source" ref="ve18564" variable="bi18569"/>
+			<InteractionElementReference purpose="target" ref="ve2325" variable="bi32390"/>
+		</Interaction>
+		<Interaction name="ia27214" type="filter" derived="false" action="ac27211">
+			<InteractionElementReference purpose="source" ref="ve1044"/>
+			<InteractionElementReference purpose="target" ref="ve27045"/>
+		</Interaction>
+		<Interaction name="ia27216" type="filter" derived="false" action="ac27211">
+			<InteractionElementReference purpose="source" ref="ve1044" variable="bi28123"/>
+			<InteractionElementReference purpose="target" ref="ve27078" variable="bi32392"/>
+		</Interaction>
+		<Interaction name="ia27219" type="filter" derived="true" action="ac27211">
+			<InteractionElementReference purpose="source" ref="ve1028"/>
+			<InteractionElementReference purpose="target" ref="ve27045"/>
+		</Interaction>
+		<Interaction name="ia27221" type="filter" derived="true" action="ac27211">
+			<InteractionElementReference purpose="source" ref="ve1028" variable="bi26732 bi29365"/>
+			<InteractionElementReference purpose="target" ref="ve27078" variable="bi27066 bi32393"/>
+		</Interaction>
+		<Interaction name="ia27229" type="filter" derived="false" action="ac27211">
+			<InteractionElementReference purpose="source" ref="ve1044" variable="bi28123"/>
+			<InteractionElementReference purpose="target" ref="ve27224" variable="bi32398"/>
+		</Interaction>
+		<Interaction name="ia27230" type="filter" derived="true" action="ac27211">
+			<InteractionElementReference purpose="source" ref="ve1028" variable="bi26732 bi29365"/>
+			<InteractionElementReference purpose="target" ref="ve27224" variable="bi32399 bi32400"/>
+		</Interaction>
+		<Interaction name="ia27339" type="filter" derived="true" action="ac27211">
+			<InteractionElementReference purpose="source" ref="ve27324" variable="bi27368"/>
+			<InteractionElementReference purpose="target" ref="ve27078" variable="bi27059"/>
+		</Interaction>
+		<Interaction name="ia27406" type="filter" derived="true" action="ac27211">
+			<InteractionElementReference purpose="source" ref="ve928" variable="bi951"/>
+			<InteractionElementReference purpose="target" ref="ve27078" variable="bi27061"/>
+		</Interaction>
+		<Interaction name="ia27414" type="filter" derived="true" action="ac27211">
+			<InteractionElementReference purpose="source" ref="ve958" variable="bi965"/>
+			<InteractionElementReference purpose="target" ref="ve27078" variable="bi27060"/>
+		</Interaction>
+		<Interaction name="ia27422" type="filter" derived="true" action="ac27211">
+			<InteractionElementReference purpose="source" ref="ve971" variable="bi976"/>
+			<InteractionElementReference purpose="target" ref="ve27078" variable="bi27062"/>
+		</Interaction>
+		<Interaction name="ia27441" type="filter" derived="false" action="ac27440">
+			<InteractionElementReference purpose="source" ref="ve3430"/>
+			<InteractionElementReference purpose="target" ref="ve13609"/>
+		</Interaction>
+		<Interaction name="ia27462" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve3459" variable="bi3464"/>
+			<InteractionElementReference purpose="target" ref="ve3525" variable="bi32385"/>
+		</Interaction>
+		<Interaction name="ia27463" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve3459" variable="bi3464"/>
+			<InteractionElementReference purpose="target" ref="ve3575" variable="bi32386"/>
+		</Interaction>
+		<Interaction name="ia27681" type="filter" derived="true" action="ac27638">
+			<InteractionElementReference purpose="source" ref="ve27590"/>
+			<InteractionElementReference purpose="target" ref="ve24528"/>
+		</Interaction>
+		<Interaction name="ia27682" type="filter" derived="true" action="ac27638">
+			<InteractionElementReference purpose="source" ref="ve27590" variable="bi27689"/>
+			<InteractionElementReference purpose="target" ref="ve750" variable="bi32388"/>
+		</Interaction>
+		<Interaction name="ia27683" type="filter" derived="true" action="ac27672">
+			<InteractionElementReference purpose="source" ref="ve27590"/>
+			<InteractionElementReference purpose="target" ref="ve8898"/>
+		</Interaction>
+		<Interaction name="ia27684" type="brush" derived="false">
+			<InteractionElementReference purpose="source" ref="ve27648" variable="bi27637.bi55"/>
+			<InteractionElementReference purpose="target" ref="ve27663" variable="bi27650"/>
+		</Interaction>
+		<Interaction name="ia27685" type="brush" derived="true">
+			<InteractionElementReference purpose="source" ref="ve27663" variable="bi27650"/>
+			<InteractionElementReference purpose="target" ref="ve27648" variable="bi32402"/>
+		</Interaction>
+		<Interaction name="ia27686" type="filter" derived="false" action="ac27638">
+			<InteractionElementReference purpose="source" ref="ve27648" variable="bi27637"/>
+			<InteractionElementReference purpose="target" ref="ve750" variable="bi32389"/>
+		</Interaction>
+		<Interaction name="ia27687" type="filter" derived="false" action="ac27638">
+			<InteractionElementReference purpose="source" ref="ve27648"/>
+			<InteractionElementReference purpose="target" ref="ve24528"/>
+		</Interaction>
+		<Interaction name="ia27688" type="filter" derived="false" action="ac27672">
+			<InteractionElementReference purpose="source" ref="ve27673"/>
+			<InteractionElementReference purpose="target" ref="ve8898"/>
+		</Interaction>
+		<Interaction name="ia27882" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve27324" variable="bi27368"/>
+			<InteractionElementReference purpose="target" ref="ve928" variable="bi32380"/>
+		</Interaction>
+		<Interaction name="ia27883" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve27324" variable="bi27368"/>
+			<InteractionElementReference purpose="target" ref="ve958" variable="bi32381"/>
+		</Interaction>
+		<Interaction name="ia27884" type="filter" derived="false">
+			<InteractionElementReference purpose="source" ref="ve27324" variable="bi27368"/>
+			<InteractionElementReference purpose="target" ref="ve971" variable="bi32382"/>
+		</Interaction>
+		<Interaction name="ia27438" type="filter" derived="false" action="ac27437">
+			<InteractionElementReference purpose="source" ref="ve25373"/>
+			<InteractionElementReference purpose="target" ref="ve13532"/>
+		</Interaction>
+		<Interaction name="ia27439" type="filter" derived="true" action="ac27437">
+			<InteractionElementReference purpose="source" ref="ve27370"/>
+			<InteractionElementReference purpose="target" ref="ve13532"/>
+		</Interaction>
+		<Interaction name="ia27430" type="filter" derived="false" action="ac27429">
+			<InteractionElementReference purpose="source" ref="ve24873"/>
+			<InteractionElementReference purpose="target" ref="ve11305"/>
+		</Interaction>
+		<Interaction name="ia27431" type="filter" derived="true" action="ac27429">
+			<InteractionElementReference purpose="source" ref="ve27324"/>
+			<InteractionElementReference purpose="target" ref="ve11305"/>
+		</Interaction>
+		<Interaction name="ia27432" type="filter" derived="true" action="ac27429">
+			<InteractionElementReference purpose="source" ref="ve928"/>
+			<InteractionElementReference purpose="target" ref="ve11305"/>
+		</Interaction>
+		<Interaction name="ia27433" type="filter" derived="true" action="ac27429">
+			<InteractionElementReference purpose="source" ref="ve958"/>
+			<InteractionElementReference purpose="target" ref="ve11305"/>
+		</Interaction>
+		<Interaction name="ia27434" type="filter" derived="true" action="ac27429">
+			<InteractionElementReference purpose="source" ref="ve971"/>
+			<InteractionElementReference purpose="target" ref="ve11305"/>
+		</Interaction>
+		<Interaction name="ia30562" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve928" variable="pr952"/>
+			<InteractionElementReference purpose="target" ref="ve958" variable="pr952"/>
+		</Interaction>
+		<Interaction name="ia30564" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve928" variable="pr952"/>
+			<InteractionElementReference purpose="target" ref="ve971" variable="pr952"/>
+		</Interaction>
+		<Interaction name="ia30565" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve958" variable="pr966"/>
+			<InteractionElementReference purpose="target" ref="ve971" variable="pr966"/>
+		</Interaction>
+		<Interaction name="ia30573" type="parameter" dataStage="display" derived="true">
+			<InteractionElementReference purpose="source" ref="ve27590" variable="pr92"/>
+			<InteractionElementReference purpose="target" ref="ve24528" variable="pr92"/>
+		</Interaction>
+		<Interaction name="ia30574" type="parameter" dataStage="display" derived="true">
+			<InteractionElementReference purpose="source" ref="ve928" variable="pr952"/>
+			<InteractionElementReference purpose="target" ref="ve24873" variable="pr952"/>
+		</Interaction>
+		<Interaction name="ia30575" type="parameter" dataStage="display" derived="true">
+			<InteractionElementReference purpose="source" ref="ve958" variable="pr966"/>
+			<InteractionElementReference purpose="target" ref="ve24873" variable="pr966"/>
+		</Interaction>
+		<Interaction name="ia30576" type="parameter" dataStage="display" derived="true">
+			<InteractionElementReference purpose="source" ref="ve971" variable="pr977"/>
+			<InteractionElementReference purpose="target" ref="ve24873" variable="pr977"/>
+		</Interaction>
+		<Interaction name="ia30581" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve27590" variable="pr92"/>
+			<InteractionElementReference purpose="target" ref="ve27078" variable="pr92"/>
+		</Interaction>
+		<Interaction name="ia30582" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve928" variable="pr952"/>
+			<InteractionElementReference purpose="target" ref="ve27078" variable="pr952"/>
+		</Interaction>
+		<Interaction name="ia30583" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve958" variable="pr966"/>
+			<InteractionElementReference purpose="target" ref="ve27078" variable="pr966"/>
+		</Interaction>
+		<Interaction name="ia30584" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve971" variable="pr977"/>
+			<InteractionElementReference purpose="target" ref="ve27078" variable="pr977"/>
+		</Interaction>
+		<Interaction name="ia30585" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve27045" variable="pr1123"/>
+			<InteractionElementReference purpose="target" ref="ve27078" variable="pr1123"/>
+		</Interaction>
+		<Interaction name="ia30589" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve928" variable="pr952"/>
+			<InteractionElementReference purpose="target" ref="ve1044" variable="pr952"/>
+		</Interaction>
+		<Interaction name="ia30590" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve958" variable="pr966"/>
+			<InteractionElementReference purpose="target" ref="ve1044" variable="pr966"/>
+		</Interaction>
+		<Interaction name="ia30591" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve971" variable="pr977"/>
+			<InteractionElementReference purpose="target" ref="ve1044" variable="pr977"/>
+		</Interaction>
+		<Interaction name="ia30593" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve928" variable="pr952"/>
+			<InteractionElementReference purpose="target" ref="ve1028" variable="pr952"/>
+		</Interaction>
+		<Interaction name="ia30594" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve958" variable="pr966"/>
+			<InteractionElementReference purpose="target" ref="ve1028" variable="pr966"/>
+		</Interaction>
+		<Interaction name="ia30595" type="parameter" dataStage="detail" derived="true">
+			<InteractionElementReference purpose="source" ref="ve971" variable="pr977"/>
+			<InteractionElementReference purpose="target" ref="ve1028" variable="pr977"/>
+		</Interaction>
+	</Interactions>
+	<Conditions>
+		<Condition shareable="false" scope="local" name="cd28685">
+			<ConditionVariables>
+				<ConditionVariable variable="bi1" type="numeric"/>
+			</ConditionVariables>
+			<If name="cc28684" class="If">
+				<Expression>between(${bi1},0,39710648)</Expression>
+			</If>
+		</Condition>
+		<Condition shareable="false" scope="local" name="cd28692">
+			<ConditionVariables>
+				<ConditionVariable variable="bi1" type="numeric"/>
+			</ConditionVariables>
+			<If name="cc28691" class="If">
+				<Expression>between(${bi1},0,15000000)</Expression>
+			</If>
+		</Condition>
+		<Condition shareable="false" scope="local" name="cd28699">
+			<ConditionVariables>
+				<ConditionVariable variable="bi1" type="numeric"/>
+			</ConditionVariables>
+			<If name="cc28698" class="If">
+				<Expression>between(${bi1},0,15000000)</Expression>
+			</If>
+		</Condition>
+		<Condition shareable="false" scope="local" name="cd28711">
+			<ConditionVariables>
+				<ConditionVariable variable="bi1" type="numeric"/>
+			</ConditionVariables>
+			<If name="cc28710" class="If">
+				<Expression>between(${bi1},0,65000)</Expression>
+			</If>
+		</Condition>
+		<Condition shareable="false" scope="local" name="cd30790">
+			<ConditionVariables>
+				<ConditionVariable variable="bi1" type="numeric"/>
+			</ConditionVariables>
+			<If name="cc30789" class="If">
+				<Expression>gt(${bi1},15000000)</Expression>
+			</If>
+		</Condition>
+		<Condition shareable="false" scope="local" name="cd30793">
+			<ConditionVariables>
+				<ConditionVariable variable="bi1" type="numeric"/>
+			</ConditionVariables>
+			<If name="cc30792" class="If">
+				<Expression>gt(${bi1},14000000)</Expression>
+			</If>
+		</Condition>
+		<Condition shareable="false" scope="local" name="cd30799">
+			<ConditionVariables>
+				<ConditionVariable variable="bi1" type="numeric"/>
+			</ConditionVariables>
+			<If name="cc30798" class="If">
+				<Expression>gt(${bi1},5000000)</Expression>
+			</If>
+		</Condition>
+		<Condition shareable="false" scope="local" name="cd30802">
+			<ConditionVariables>
+				<ConditionVariable variable="bi1" type="numeric"/>
+			</ConditionVariables>
+			<If name="cc30801" class="If">
+				<Expression>gt(${bi1},50000)</Expression>
+			</If>
+		</Condition>
+		<Range scope="local" name="rg25822">
+			<DiscreteAttrMap>
+				<Category categoryColor="#E2E6F3">Ares</Category>
+				<Category categoryColor="#EEF4DF">Apollo</Category>
+				<Category categoryColor="#FDECD9">Zeus</Category>
+				<Category categoryColor="#D9EFF1">Titan</Category>
+			</DiscreteAttrMap>
+		</Range>
+	</Conditions>
+	<MediaSchemes>
+		<MediaScheme name="ms1">
+			<BaseStylesheetResource file="basems1.css" theme="marine"/>
+			<StylesheetFile file="ms1.css"/>
+		</MediaScheme>
+	</MediaSchemes>
+	<MediaTargets>
+		<MediaTarget windowSize="default" scheme="ms1" name="mt2"/>
+		<MediaTarget windowSize="small" scheme="ms1" name="mt3"/>
+		<MediaTarget windowSize="medium" scheme="ms1" name="mt4"/>
+		<MediaTarget windowSize="large" scheme="ms1" name="mt5"/>
+	</MediaTargets>
+	<Properties>
+		<Property key="displayDataSource">ds33</Property>
+		<Property key="lastSection">vi27675</Property>
+		<Property key="ReportPackagesServiceVersion">2020.1.4</Property>
+		<Property key="ReportDataServiceVersion">2020.1.4</Property>
+	</Properties>
+	<DataSourceMappings>
+		<InternalDataSourceMapping source="ds33" target="ds24112" name="dm24168">
+			<InternalColumnMapping source="bi69" target="bi24121"/>
+			<InternalColumnMapping source="bi55" target="bi24120"/>
+		</InternalDataSourceMapping>
+	</DataSourceMappings>
+	<History>
+	<Versions>
+		<Version key="4.0.2" lastDate="2017-03-13T00:00:00Z"/>
+		<Version key="4.1.0" lastDate="2018-01-17T00:00:00Z"/>
+		<Version key="4.1.2" lastDate="2018-06-21T00:00:00Z"/>
+		<Version key="4.18.0" lastDate="2022-08-09T00:00:00Z"/>
+	</Versions>
+	<Conversions>
+		<Conversion startVersion="4.0.2" finalVersion="4.1.0" date="2018-01-17T00:00:00Z"/>
+		<Conversion startVersion="4.1.0" finalVersion="4.1.2" date="2018-06-21T00:00:00Z">
+			<Transform key="4.1.0_to_4.1.2_StackNavigationControl" date="2018-06-21T19:10:25Z"/>
+		</Conversion>
+		<Conversion startVersion="4.1.2" finalVersion="4.18.0" date="2022-08-09T00:00:00Z"/>
+	</Conversions>
+</History>
+	<SASReportState>
+		<View/>
+	</SASReportState>
+</SASReport>
