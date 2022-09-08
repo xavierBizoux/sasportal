@@ -1762,10 +1762,10 @@
   resolved "https://registry.yarnpkg.com/@sassoftware/sas-auth-browser/-/sas-auth-browser-0.1.1.tgz#8e7f14be9b8d2b1206301d2db559a651f73feace"
   integrity sha512-DQGAk9Lyq8eKgW7BvYtOxJ+7K/S0ohzjc/+sIvRWC9al+U9igsCmp2U7szyz72S5buk/5PFMWAZt0D/9t2oi6g==
 
-"@sassoftware/va-report-components@^1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@sassoftware/va-report-components/-/va-report-components-1.8.0.tgz#02c16bf728f40ca554bb5a94b20f795758be03d2"
-  integrity sha512-GIZ9YVcSbZa9P4BrlFyG2NeZ/rZpXozXkK0jI39P8M8vKrvdrXTQV4L792NGAnmMGzy6iacJrCZmj7bhv7gkQg==
+"@sassoftware/va-report-components@^1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@sassoftware/va-report-components/-/va-report-components-1.11.0.tgz#146019e750a200bf81081c8aac9af669387a33bd"
+  integrity sha512-S5tgdtaDbmjBrMFHDu6Ige70mv7DGLP8Yc0xRFYgwDzhn1vC4DJ0BVwABQ9kE4rnW7dUjvybFBfP5ju+cIaURA==
 
 "@sinclair/typebox@^0.23.3":
   version "0.23.5"
