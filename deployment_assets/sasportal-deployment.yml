@@ -1,0 +1,92 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: sasportal-depl
+    labels:
+        app: sasportal
+        app.kubernetes.io/part-of: sasportal-depl
+spec:
+    replicas: 1
+    selector:
+        matchLabels:
+            app: sasportal
+    template:
+        metadata:
+            labels:
+                app: sasportal
+                app.kubernetes.io/part-of: sasportal-depl
+        spec:
+            initContainers:
+                - name: app-downloader
+                  image: alpine/git:latest
+                  imagePullPolicy: IfNotPresent
+                  workingDir: /tmp/app
+                  command: ["/bin/sh", "-c"]
+                  args:
+                      - git config --global https.sslVerify "false";
+                        git clone --branch deployment https://github.com/xavierBizoux/sasportal.git /tmp/app/sasportal;
+                  volumeMounts:
+                      - mountPath: /tmp/app
+                        name: app-folder
+                - name: app-builder
+                  image: node:alpine
+                  imagePullPolicy: IfNotPresent
+                  workingDir: /tmp/app/sasportal
+                  command: ["/bin/sh", "-c"]
+                  args:
+                      - npm install --silent;
+                        npm install react-scripts -g --silent ;
+                        mkdir -p ./public/assets/va-sdk;
+                        cp -r ./node_modules/@sassoftware/va-report-components/* ./public/assets/va-sdk ;
+                        mkdir -p ./public/assets/content-sdk;
+                        cp -r ./node_modules/@sassoftware/content-components/* ./public/assets/content-sdk ;
+                        mkdir -p ./public/assets/conversation-sdk;
+                        cp -r ./node_modules/@sassoftware/conversation-designer-components/* ./public/assets/conversation-sdk ;
+                        npm run build;
+                  volumeMounts:
+                      - mountPath: /tmp/app
+                        name: app-folder
+            containers:
+                - name: sasportal
+                  image: nginx:1.22.0-alpine
+                  imagePullPolicy: IfNotPresent
+                  workingDir: /tmp/app/sasportal
+                  command: ["/bin/sh", "-c"]
+                  args:
+                    #   - cp ./deployment_assets/nginx.default.conf /etc/nginx/conf.d/default.conf;
+                      - mv ./build/* /usr/share/nginx/html;
+                        nginx -g 'daemon off;';
+                  ports:
+                      - containerPort: 80
+                        name: sasportal
+                  resources:
+                      limits:
+                          cpu: 500m
+                          memory: 500Mi
+                      requests:
+                          cpu: 50m
+                          memory: 50Mi
+                  volumeMounts:
+                    - mountPath: /tmp/app
+                      name: app-folder
+            volumes:
+                - name: app-folder
+                  emptyDir: {}
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+    name: sasportal-service
+    labels:
+        app: sasportal-service
+        app.kubernetes.io/part-of: sasportal-depl
+spec:
+    selector:
+        app: sasportal
+    type: NodePort
+    ports:
+        - protocol: TCP
+          port: 80
+          targetPort: 80
+          nodePort: 30080
