@@ -10,7 +10,7 @@ const LandingPage = (props) => {
     const [bottomRight, setBottomRight] = useState()
     const [bottomLeft, setBottomLeft] = useState()
     useEffect(() => {
-        fetch("/data/LANDING.json")
+        fetch("%PUBLIC_URL%/data/LANDING.json")
             .then(response => response.json())
             .then(json => {
                 setData(json)
