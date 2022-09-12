@@ -1,6 +1,6 @@
 [
     {"type": "shortcuts", "info": {}, "position": "topLeft"},
-    {"type": "sas-report-object", "info":{"packageUri": "./sasportal/reports/warranty", "objectName":"ve27604"}, "position": "topRight"},
-    {"type": "sas-report-object", "info": {"packageUri": "./sasportal/reports/warranty", "objectName":"ve27618"}, "position": "bottomLeft"},
-    {"type": "sas-report-object", "info": {"packageUri": "./sasportal/reports/warranty", "objectName":"ve27632"}, "position": "bottomRight"}
+    {"type": "sas-report-object", "info":{"packageUri": "reports/warranty", "objectName":"ve27604"}, "position": "topRight"},
+    {"type": "sas-report-object", "info": {"packageUri": "reports/warranty", "objectName":"ve27618"}, "position": "bottomLeft"},
+    {"type": "sas-report-object", "info": {"packageUri": "reports/warranty", "objectName":"ve27632"}, "position": "bottomRight"}
 ]

@@ -10,7 +10,8 @@ const Shortcuts = (props) => {
     const [data, setData] = useState([])
     const [content, setContent] = useState()
     useEffect(() => {
-        fetch("data/SHORTCUTS.json")
+        const location = window.location.href
+        fetch(location +"/data/SHORTCUTS.json")
             .then(response => response.json())
             .then(json => {
                 setData(json.sort((a, b) => (a.position > b.position ? 1 : -1)))
@@ -19,7 +20,7 @@ const Shortcuts = (props) => {
     }, [])
     useEffect(() => {
         const content = data.map(element =>
-            <ListItem id={"shortcuts_" + element.position}>
+            <ListItem key={"shortcuts_" + element.position}>
                 <ListItemButton component="a" href={element.href} target="_blank" rel="noopener" sx={{padding:0, margin: 0}}>
                     <LinkIcon sx={{mx: "5px"}}></LinkIcon>
                     <ListItemText>{element.label}</ListItemText>
