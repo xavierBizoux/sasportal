@@ -1,0 +1,18 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: sasportal-ingress
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+spec:
+  rules:
+  - host: "gelenv-stable.rext03-0227.race.sas.com"
+    http:
+      paths:
+      - path: /sasportal
+        pathType: Prefix
+        backend:
+          service:
+            name: sasportal-service
+            port:
+              number: 80
