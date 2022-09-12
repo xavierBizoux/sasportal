@@ -11,7 +11,7 @@ const LandingPage = (props) => {
     const [bottomLeft, setBottomLeft] = useState()
     useEffect(() => {
         const location = window.location.href
-        fetch(location + "data/LANDING.json")
+        fetch(location + "/data/LANDING.json")
             .then(response => response.json())
             .then(json => {
                 setData(json)

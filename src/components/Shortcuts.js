@@ -11,7 +11,7 @@ const Shortcuts = (props) => {
     const [content, setContent] = useState()
     useEffect(() => {
         const location = window.location.href
-        fetch(location +"/data/SHORTCUTS.json")
+        fetch(location + "/data/SHORTCUTS.json")
             .then(response => response.json())
             .then(json => {
                 setData(json.sort((a, b) => (a.position > b.position ? 1 : -1)))
