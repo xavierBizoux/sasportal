@@ -10,7 +10,7 @@ const Shortcuts = (props) => {
     const [data, setData] = useState([])
     const [content, setContent] = useState()
     useEffect(() => {
-        fetch("/sasportal/data/SHORTCUTS.json")
+        fetch("data/SHORTCUTS.json")
             .then(response => response.json())
             .then(json => {
                 setData(json.sort((a, b) => (a.position > b.position ? 1 : -1)))
