@@ -1,3 +1,3 @@
 export const vaInfo = {
-    url: "https://live.stable.gel.race.sas.com"
+    url: "https://gelenv-stable.rext03-0227.race.sas.com"
 }
