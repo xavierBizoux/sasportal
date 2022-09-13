@@ -27,8 +27,9 @@ const LandingPage = (props) => {
                     content = <Shortcuts></Shortcuts>
                     break
                 case "sas-report-object":
+                    console.log("pathname : " + window.location.pathname)
                     content = <sas-report-object
-                        packageUri={window.location.pathname ? element.info.packageUri : window.location.pathname + element.info.packageUri}
+                        packageUri={window.location.pathname === "/" ? element.info.packageUri : window.location.pathname + element.info.packageUri}
                         objectName={element.info.objectName} >
                     </sas-report-object>
                     break

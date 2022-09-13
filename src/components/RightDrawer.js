@@ -8,7 +8,7 @@ const RightDrawer = () => {
     const { rightDrawerDisplayed } = useContext(LayoutContext)
     const [topComponent, setTopComponent] = useState({
         type: "reportPackage",
-        uri: window.location.pathname ? "/reports/ICU Pressure" : window.location.pathname + "/reports/ICU Pressure",
+        uri: window.location.pathname === "/" ? "/reports/ICU Pressure" : window.location.pathname + "/reports/ICU Pressure",
         objectName: "ve25"
     })
     const [midComponent, setMidComponent] = useState({
