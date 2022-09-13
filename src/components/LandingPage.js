@@ -27,7 +27,10 @@ const LandingPage = (props) => {
                     content = <Shortcuts></Shortcuts>
                     break
                 case "sas-report-object":
-                    content = <sas-report-object packageUri={window.location.pathname + element.info.packageUri} objectName={element.info.objectName} ></sas-report-object>
+                    content = <sas-report-object
+                        packageUri={window.location.pathname ? element.info.packageUri : window.location.pathname + element.info.packageUri}
+                        objectName={element.info.objectName} >
+                    </sas-report-object>
                     break
                 default:
                     content = <Typography>Type not defined</Typography>
@@ -55,10 +58,10 @@ const LandingPage = (props) => {
         }
     }, [data])
     return (
-        <Grid container fixed sx={{ maxWidth: "70vw", marginX: "15vw", marginTop: "1vh"}}>
+        <Grid container fixed sx={{ maxWidth: "70vw", marginX: "15vw", marginTop: "1vh" }}>
             <Grid item container xs={12} sx={{ minHeight: "40vh", maxHeight: "40vh" }}>
-                <Grid item xs={6} sx={{ border: "2px solid", borderColor: "primary.main", borderRadius: "5px"}}>
-                    { topLeft }
+                <Grid item xs={6} sx={{ border: "2px solid", borderColor: "primary.main", borderRadius: "5px" }}>
+                    {topLeft}
                 </Grid>
                 <Grid item xs={6} sx={{ border: "2px solid", borderColor: "primary.main", borderRadius: "5px" }}>
                     {topRight}
