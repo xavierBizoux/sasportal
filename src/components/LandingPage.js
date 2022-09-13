@@ -27,7 +27,7 @@ const LandingPage = (props) => {
                     content = <Shortcuts></Shortcuts>
                     break
                 case "sas-report-object":
-                    content = <sas-report-object packageUri={window.location.pathname + element.info.packageUri} objectName={element.info.objectName} ></sas-report-object>
+                    content = <sas-report-object packageUri={window.location.pathname + '/' + element.info.packageUri} objectName={element.info.objectName} ></sas-report-object>
                     break
                 default:
                     content = <Typography>Type not defined</Typography>
